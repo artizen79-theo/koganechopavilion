@@ -479,7 +479,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "a4-art-museum",
-    image: "images/institutions/002_A4 Residency/01.jpg",
+    image: "images/institutions/002_A4_Residency/01.jpg",
     nameKo: "A4 레지던스아트센터",
     nameEn: "A4 Residency Art Center",
     regionKo: "청두",
@@ -551,7 +551,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "totatoga",
-    image: "images/institutions/006_TOTATOGA/01.jpg",
+    image: "images/institutions/006_Totatoga/01.jpg",
     nameKo: "원도심 창작공간 또따또가",
     nameEn: "The Historic Downtown Culture Cluster Totatoga",
     regionKo: "부산",
@@ -681,44 +681,44 @@ const INSTITUTION_IMAGES = {
   ],
   "a4-art-museum": [
     {
-      "thumb": "images/institutions/002_A4 Residency/01.jpg",
-      "large": "images/institutions/002_A4 Residency/01-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/01.jpg",
+      "large": "images/institutions/002_A4_Residency/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/02.jpg",
-      "large": "images/institutions/002_A4 Residency/02-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/02.jpg",
+      "large": "images/institutions/002_A4_Residency/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/03.jpg",
-      "large": "images/institutions/002_A4 Residency/03-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/03.jpg",
+      "large": "images/institutions/002_A4_Residency/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/04.jpg",
-      "large": "images/institutions/002_A4 Residency/04-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/04.jpg",
+      "large": "images/institutions/002_A4_Residency/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/05.jpg",
-      "large": "images/institutions/002_A4 Residency/05-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/05.jpg",
+      "large": "images/institutions/002_A4_Residency/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/06.jpg",
-      "large": "images/institutions/002_A4 Residency/06-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/06.jpg",
+      "large": "images/institutions/002_A4_Residency/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/07.jpg",
-      "large": "images/institutions/002_A4 Residency/07-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/07.jpg",
+      "large": "images/institutions/002_A4_Residency/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/08.jpg",
-      "large": "images/institutions/002_A4 Residency/08-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/08.jpg",
+      "large": "images/institutions/002_A4_Residency/08-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/09.jpg",
-      "large": "images/institutions/002_A4 Residency/09-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/09.jpg",
+      "large": "images/institutions/002_A4_Residency/09-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/10.jpg",
-      "large": "images/institutions/002_A4 Residency/10-large.jpg"
+      "thumb": "images/institutions/002_A4_Residency/10.jpg",
+      "large": "images/institutions/002_A4_Residency/10-large.jpg"
     }
   ],
   "absolute-space-air": [
@@ -825,36 +825,36 @@ const INSTITUTION_IMAGES = {
   ],
   "totatoga": [
     {
-      "thumb": "images/institutions/006_TOTATOGA/01.jpg",
-      "large": "images/institutions/006_TOTATOGA/01-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/01.jpg",
+      "large": "images/institutions/006_Totatoga/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/02.jpg",
-      "large": "images/institutions/006_TOTATOGA/02-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/02.jpg",
+      "large": "images/institutions/006_Totatoga/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/03.jpg",
-      "large": "images/institutions/006_TOTATOGA/03-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/03.jpg",
+      "large": "images/institutions/006_Totatoga/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/04.jpg",
-      "large": "images/institutions/006_TOTATOGA/04-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/04.jpg",
+      "large": "images/institutions/006_Totatoga/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/05.jpg",
-      "large": "images/institutions/006_TOTATOGA/05-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/05.jpg",
+      "large": "images/institutions/006_Totatoga/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/06.jpg",
-      "large": "images/institutions/006_TOTATOGA/06-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/06.jpg",
+      "large": "images/institutions/006_Totatoga/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/07.jpg",
-      "large": "images/institutions/006_TOTATOGA/07-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/07.jpg",
+      "large": "images/institutions/006_Totatoga/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/08.jpg",
-      "large": "images/institutions/006_TOTATOGA/08-large.jpg"
+      "thumb": "images/institutions/006_Totatoga/08.jpg",
+      "large": "images/institutions/006_Totatoga/08-large.jpg"
     }
   ],
   "daegu-art-factory": [
