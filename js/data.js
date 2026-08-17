@@ -461,6 +461,7 @@ const ARTIST_ARTWORKS = {
 const INSTITUTIONS_DATA = [
   {
     id: "koganecho",
+    image: "images/institutions/001_Koganecho/01.jpg",
     nameKo: "코가네쵸 에리어 매니지먼트 센터",
     nameEn: "Koganecho Area Management Center",
     regionKo: "요코하마",
@@ -478,6 +479,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "a4-art-museum",
+    image: "images/institutions/002_A4 Residency/01.jpg",
     nameKo: "A4 레지던스아트센터",
     nameEn: "A4 Residency Art Center",
     regionKo: "청두",
@@ -495,6 +497,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "absolute-space-air",
+    image: "images/institutions/003_Absolute_Space/01.jpg",
     nameKo: "앱솔루트 스페이스 포 더 아트",
     nameEn: "Absolute Space for The Arts",
     regionKo: "타이난",
@@ -512,6 +515,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "vietnam-air-network",
+    image: "images/institutions/004_AiRViNe/01.jpg",
     nameKo: "베트남 아티스트 인 레지던스 네트워크(AiRViNe)",
     nameEn: "Artist-in-Residence Vietnam Network(AiRViNe)",
     regionKo: "하노이 / 호치민",
@@ -529,6 +533,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "bbongbbong-bridge",
+    image: "images/institutions/005_Bbongbbong_Bridge/01.jpg",
     nameKo: "뽕뽕브릿지",
     nameEn: "Space PPONG",
     regionKo: "광주",
@@ -546,6 +551,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "totatoga",
+    image: "images/institutions/006_TOTATOGA/01.jpg",
     nameKo: "원도심 창작공간 또따또가",
     nameEn: "The Historic Downtown Culture Cluster Totatoga",
     regionKo: "부산",
@@ -563,6 +569,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "daegu-art-factory",
+    image: "images/institutions/007_Daegu_Art_Factory/01.jpg",
     nameKo: "대구문화예술진흥원 대구예술발전소",
     nameEn: "Daegu Art Factory of Daegu Foundation for Culture&Arts",
     regionKo: "대구",
@@ -580,6 +587,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "donggu-house-of-humanities",
+    image: "images/institutions/008_Donggu_House_of_Humanities/01.jpg",
     nameKo: "동구인문학당",
     nameEn: "Dong-gu Inmunhakdang (House of Humanities)",
     regionKo: "광주",
@@ -597,6 +605,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "xiamen-university-art",
+    image: "images/institutions/009_Xiamen_University_Art/01.jpg",
     nameKo: "97 웨스트 디스트릭트 인터내셔널 아트 커뮤니티 (롱후 타운&샤먼 대학교)",
     nameEn: "97 West District International Art Community (Longhu Town & Xiamen University)",
     nameShortKo: "97 웨스트 디스트릭트 인터내셔널 아트 커뮤니티",
@@ -616,6 +625,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "yesul-sanghoe",
+    image: "images/institutions/010_653_Yesul_Sanghoe/01.jpg",
     nameKo: "653예술상회",
     nameEn: "653artfirm",
     regionKo: "청주",
@@ -637,354 +647,354 @@ const INSTITUTIONS_DATA = [
 const INSTITUTION_IMAGES = {
   "koganecho": [
     {
-      "thumb": "images/institutions/001_Koganecho/01_main.jpg",
-      "large": "images/institutions/001_Koganecho/01_main.jpg"
+      "thumb": "images/institutions/001_Koganecho/01.jpg",
+      "large": "images/institutions/001_Koganecho/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/001_Koganecho/02_kamc.jpg",
-      "large": "images/institutions/001_Koganecho/02_kamc.jpg"
+      "thumb": "images/institutions/001_Koganecho/02.jpg",
+      "large": "images/institutions/001_Koganecho/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/001_Koganecho/05_air3.jpg",
-      "large": "images/institutions/001_Koganecho/05_air3.jpg"
+      "thumb": "images/institutions/001_Koganecho/03.jpg",
+      "large": "images/institutions/001_Koganecho/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/001_Koganecho/06_bazaar.jpg",
-      "large": "images/institutions/001_Koganecho/06_bazaar.jpg"
+      "thumb": "images/institutions/001_Koganecho/04.jpg",
+      "large": "images/institutions/001_Koganecho/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/001_Koganecho/20250424-IMG_6289.jpg",
-      "large": "images/institutions/001_Koganecho/20250424-IMG_6289.jpg"
+      "thumb": "images/institutions/001_Koganecho/05.jpg",
+      "large": "images/institutions/001_Koganecho/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/001_Koganecho/IMG_1425-13.jpg",
-      "large": "images/institutions/001_Koganecho/IMG_1425-13.jpg"
+      "thumb": "images/institutions/001_Koganecho/06.jpg",
+      "large": "images/institutions/001_Koganecho/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/001_Koganecho/IMG_3382.jpg",
-      "large": "images/institutions/001_Koganecho/IMG_3382.jpg"
+      "thumb": "images/institutions/001_Koganecho/07.jpg",
+      "large": "images/institutions/001_Koganecho/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/001_Koganecho/IMG_9943.jpg",
-      "large": "images/institutions/001_Koganecho/IMG_9943.jpg"
+      "thumb": "images/institutions/001_Koganecho/08.jpg",
+      "large": "images/institutions/001_Koganecho/08-large.jpg"
     }
   ],
   "a4-art-museum": [
     {
-      "thumb": "images/institutions/002_A4 Residency/2025 Arts Season Opens.JPG",
-      "large": "images/institutions/002_A4 Residency/2025 Arts Season Opens.JPG"
+      "thumb": "images/institutions/002_A4 Residency/01.jpg",
+      "large": "images/institutions/002_A4 Residency/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/A283F0FC-5950-40D8-8D6B-00FDA0896EC8-7581-00000541DA30AD5B.JPG",
-      "large": "images/institutions/002_A4 Residency/A283F0FC-5950-40D8-8D6B-00FDA0896EC8-7581-00000541DA30AD5B.JPG"
+      "thumb": "images/institutions/002_A4 Residency/02.jpg",
+      "large": "images/institutions/002_A4 Residency/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Artists' Kitchen, A4 Residency Art Center, 2024.JPG",
-      "large": "images/institutions/002_A4 Residency/Artists' Kitchen, A4 Residency Art Center, 2024.JPG"
+      "thumb": "images/institutions/002_A4 Residency/03.jpg",
+      "large": "images/institutions/002_A4 Residency/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Ateliê Vivo Collective, Antimolde, Brazilian and Chinese Waste Textile, 22x14m, 2025.jpg",
-      "large": "images/institutions/002_A4 Residency/Ateliê Vivo Collective, Antimolde, Brazilian and Chinese Waste Textile, 22x14m, 2025.jpg"
+      "thumb": "images/institutions/002_A4 Residency/04.jpg",
+      "large": "images/institutions/002_A4 Residency/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Jun Homma, Time and Boats, Installation, Dimensions variable, 2024.JPG",
-      "large": "images/institutions/002_A4 Residency/Jun Homma, Time and Boats, Installation, Dimensions variable, 2024.JPG"
+      "thumb": "images/institutions/002_A4 Residency/05.jpg",
+      "large": "images/institutions/002_A4 Residency/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Kriss Salmanis creating in his studio, A4 Residency Art Center, 2019.jpg",
-      "large": "images/institutions/002_A4 Residency/Kriss Salmanis creating in his studio, A4 Residency Art Center, 2019.jpg"
+      "thumb": "images/institutions/002_A4 Residency/06.jpg",
+      "large": "images/institutions/002_A4 Residency/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Local Exploration as a Core Working Method of A4 Residency, 2013-2025.png",
-      "large": "images/institutions/002_A4 Residency/Local Exploration as a Core Working Method of A4 Residency, 2013-2025.png"
+      "thumb": "images/institutions/002_A4 Residency/07.jpg",
+      "large": "images/institutions/002_A4 Residency/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Sebastian Mahaluf, Contradiction and Tension, Spacecraft Square of Luxezone, Chengdu, China, 2023.JPG",
-      "large": "images/institutions/002_A4 Residency/Sebastian Mahaluf, Contradiction and Tension, Spacecraft Square of Luxezone, Chengdu, China, 2023.JPG"
+      "thumb": "images/institutions/002_A4 Residency/08.jpg",
+      "large": "images/institutions/002_A4 Residency/08-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Simon Whetham, Revaluing the Worthless, Mixed media installation, Variable size, 2025.JPG",
-      "large": "images/institutions/002_A4 Residency/Simon Whetham, Revaluing the Worthless, Mixed media installation, Variable size, 2025.JPG"
+      "thumb": "images/institutions/002_A4 Residency/09.jpg",
+      "large": "images/institutions/002_A4 Residency/09-large.jpg"
     },
     {
-      "thumb": "images/institutions/002_A4 Residency/Viewers Interact with the Artist’s Work, Chen Dongfan, Long Time, No See, 2021.JPG",
-      "large": "images/institutions/002_A4 Residency/Viewers Interact with the Artist’s Work, Chen Dongfan, Long Time, No See, 2021.JPG"
+      "thumb": "images/institutions/002_A4 Residency/10.jpg",
+      "large": "images/institutions/002_A4 Residency/10-large.jpg"
     }
   ],
   "absolute-space-air": [
     {
-      "thumb": "images/institutions/003_Absolute_Space/1.jpg",
-      "large": "images/institutions/003_Absolute_Space/1.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/01.jpg",
+      "large": "images/institutions/003_Absolute_Space/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/10.jpg",
-      "large": "images/institutions/003_Absolute_Space/10.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/02.jpg",
+      "large": "images/institutions/003_Absolute_Space/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/2.jpg",
-      "large": "images/institutions/003_Absolute_Space/2.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/03.jpg",
+      "large": "images/institutions/003_Absolute_Space/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/3.jpg",
-      "large": "images/institutions/003_Absolute_Space/3.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/04.jpg",
+      "large": "images/institutions/003_Absolute_Space/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/5.jpg",
-      "large": "images/institutions/003_Absolute_Space/5.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/05.jpg",
+      "large": "images/institutions/003_Absolute_Space/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/6.jpg",
-      "large": "images/institutions/003_Absolute_Space/6.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/06.jpg",
+      "large": "images/institutions/003_Absolute_Space/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/7.jpg",
-      "large": "images/institutions/003_Absolute_Space/7.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/07.jpg",
+      "large": "images/institutions/003_Absolute_Space/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/8.jpg",
-      "large": "images/institutions/003_Absolute_Space/8.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/08.jpg",
+      "large": "images/institutions/003_Absolute_Space/08-large.jpg"
     },
     {
-      "thumb": "images/institutions/003_Absolute_Space/9.jpg",
-      "large": "images/institutions/003_Absolute_Space/9.jpg"
+      "thumb": "images/institutions/003_Absolute_Space/09.jpg",
+      "large": "images/institutions/003_Absolute_Space/09-large.jpg"
     }
   ],
   "vietnam-air-network": [
     {
       "thumb": "images/institutions/004_AiRViNe/01.jpg",
-      "large": "images/institutions/004_AiRViNe/01.jpg"
+      "large": "images/institutions/004_AiRViNe/01-large.jpg"
     },
     {
       "thumb": "images/institutions/004_AiRViNe/02.jpg",
-      "large": "images/institutions/004_AiRViNe/02.jpg"
+      "large": "images/institutions/004_AiRViNe/02-large.jpg"
     },
     {
       "thumb": "images/institutions/004_AiRViNe/03.jpg",
-      "large": "images/institutions/004_AiRViNe/03.jpg"
+      "large": "images/institutions/004_AiRViNe/03-large.jpg"
     },
     {
       "thumb": "images/institutions/004_AiRViNe/04.jpg",
-      "large": "images/institutions/004_AiRViNe/04.jpg"
+      "large": "images/institutions/004_AiRViNe/04-large.jpg"
     },
     {
       "thumb": "images/institutions/004_AiRViNe/05.jpg",
-      "large": "images/institutions/004_AiRViNe/05.jpg"
+      "large": "images/institutions/004_AiRViNe/05-large.jpg"
     },
     {
       "thumb": "images/institutions/004_AiRViNe/06.jpg",
-      "large": "images/institutions/004_AiRViNe/06.jpg"
+      "large": "images/institutions/004_AiRViNe/06-large.jpg"
     },
     {
       "thumb": "images/institutions/004_AiRViNe/07.jpg",
-      "large": "images/institutions/004_AiRViNe/07.jpg"
+      "large": "images/institutions/004_AiRViNe/07-large.jpg"
     }
   ],
   "bbongbbong-bridge": [
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/1756902375604.jpg",
-      "large": "images/institutions/005_Bbongbbong_Bridge/1756902375604.jpg"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/01.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/2016.11点, 火- prologue in penang.jpg",
-      "large": "images/institutions/005_Bbongbbong_Bridge/2016.11点, 火- prologue in penang.jpg"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/02.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/2017.04 한일 교환레지던시-어떤지점 전시 (1).JPG",
-      "large": "images/institutions/005_Bbongbbong_Bridge/2017.04 한일 교환레지던시-어떤지점 전시 (1).JPG"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/03.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/2017.04 한일 교환레지던시-어떤지점 전시 (2).JPG",
-      "large": "images/institutions/005_Bbongbbong_Bridge/2017.04 한일 교환레지던시-어떤지점 전시 (2).JPG"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/04.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/20240508_130249.jpg",
-      "large": "images/institutions/005_Bbongbbong_Bridge/20240508_130249.jpg"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/05.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/20241120_164329.jpg",
-      "large": "images/institutions/005_Bbongbbong_Bridge/20241120_164329.jpg"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/06.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/뽕뽕파워 파티 -싱가포르 작가 (4).jpg",
-      "large": "images/institutions/005_Bbongbbong_Bridge/뽕뽕파워 파티 -싱가포르 작가 (4).jpg"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/07.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/005_Bbongbbong_Bridge/해상도가 너무 낮아요.jpg",
-      "large": "images/institutions/005_Bbongbbong_Bridge/해상도가 너무 낮아요.jpg"
+      "thumb": "images/institutions/005_Bbongbbong_Bridge/08.jpg",
+      "large": "images/institutions/005_Bbongbbong_Bridge/08-large.jpg"
     }
   ],
   "totatoga": [
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_1.jpeg",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_1.jpeg"
+      "thumb": "images/institutions/006_TOTATOGA/01.jpg",
+      "large": "images/institutions/006_TOTATOGA/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_2.jpg",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_2.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/02.jpg",
+      "large": "images/institutions/006_TOTATOGA/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_3.jpg",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_3.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/03.jpg",
+      "large": "images/institutions/006_TOTATOGA/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_4.jpg",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_4.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/04.jpg",
+      "large": "images/institutions/006_TOTATOGA/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_5.png",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_가로_5.png"
+      "thumb": "images/institutions/006_TOTATOGA/05.jpg",
+      "large": "images/institutions/006_TOTATOGA/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_세로_1.png",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_세로_1.png"
+      "thumb": "images/institutions/006_TOTATOGA/06.jpg",
+      "large": "images/institutions/006_TOTATOGA/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_세로_2.png",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_세로_2.png"
+      "thumb": "images/institutions/006_TOTATOGA/07.jpg",
+      "large": "images/institutions/006_TOTATOGA/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_TOTATOGA/또따또가 대표 사진_세로_3.png",
-      "large": "images/institutions/006_TOTATOGA/또따또가 대표 사진_세로_3.png"
+      "thumb": "images/institutions/006_TOTATOGA/08.jpg",
+      "large": "images/institutions/006_TOTATOGA/08-large.jpg"
     }
   ],
   "daegu-art-factory": [
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/2023 실험적프로젝트 전시전경.jpg",
-      "large": "images/institutions/007_Daegu_Art_Factory/2023 실험적프로젝트 전시전경.jpg"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/01.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/2023 실험적프로젝트 전시전경3.jpg",
-      "large": "images/institutions/007_Daegu_Art_Factory/2023 실험적프로젝트 전시전경3.jpg"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/02.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/2024 기술융합 전시 전시전경2.jpg",
-      "large": "images/institutions/007_Daegu_Art_Factory/2024 기술융합 전시 전시전경2.jpg"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/03.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/2024 실험적프로젝트 전시전경.JPG",
-      "large": "images/institutions/007_Daegu_Art_Factory/2024 실험적프로젝트 전시전경.JPG"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/04.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/2024 실험적프로젝트 전시전경3.jpg",
-      "large": "images/institutions/007_Daegu_Art_Factory/2024 실험적프로젝트 전시전경3.jpg"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/05.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/2025 (포럼) Circle of Residency.jpg",
-      "large": "images/institutions/007_Daegu_Art_Factory/2025 (포럼) Circle of Residency.jpg"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/06.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/2025 실험적프로젝트 전시전경.jpg",
-      "large": "images/institutions/007_Daegu_Art_Factory/2025 실험적프로젝트 전시전경.jpg"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/07.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/007_Daegu_Art_Factory/대구예술발전소 전경 (3).JPG",
-      "large": "images/institutions/007_Daegu_Art_Factory/대구예술발전소 전경 (3).JPG"
+      "thumb": "images/institutions/007_Daegu_Art_Factory/08.jpg",
+      "large": "images/institutions/007_Daegu_Art_Factory/08-large.jpg"
     }
   ],
   "donggu-house-of-humanities": [
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/0J6A7847-HDR.jpg",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/0J6A7847-HDR.jpg"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/01.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/0J6A7856-HDR.jpg",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/0J6A7856-HDR.jpg"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/02.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/0J6A7861-HDR.jpg",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/0J6A7861-HDR.jpg"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/03.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/IMG-2715.jpg",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/IMG-2715.jpg"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/04.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/IMG-2726.jpg",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/IMG-2726.jpg"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/05.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/IMG-3250.JPG",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/IMG-3250.JPG"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/06.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/IMG-8230.jpg",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/IMG-8230.jpg"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/07.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/008_Donggu_House_of_Humanities/개관식3.JPG",
-      "large": "images/institutions/008_Donggu_House_of_Humanities/개관식3.JPG"
+      "thumb": "images/institutions/008_Donggu_House_of_Humanities/08.jpg",
+      "large": "images/institutions/008_Donggu_House_of_Humanities/08-large.jpg"
     }
   ],
   "xiamen-university-art": [
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/DS100907.jpg",
-      "large": "images/institutions/009_Xiamen_University_Art/DS100907.jpg"
+      "thumb": "images/institutions/009_Xiamen_University_Art/01.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/DS101253.jpg",
-      "large": "images/institutions/009_Xiamen_University_Art/DS101253.jpg"
+      "thumb": "images/institutions/009_Xiamen_University_Art/02.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/DS101316.jpg",
-      "large": "images/institutions/009_Xiamen_University_Art/DS101316.jpg"
+      "thumb": "images/institutions/009_Xiamen_University_Art/03.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/DS101403.jpg",
-      "large": "images/institutions/009_Xiamen_University_Art/DS101403.jpg"
+      "thumb": "images/institutions/009_Xiamen_University_Art/04.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/DS101756.jpg",
-      "large": "images/institutions/009_Xiamen_University_Art/DS101756.jpg"
+      "thumb": "images/institutions/009_Xiamen_University_Art/05.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/DS108646.jpg",
-      "large": "images/institutions/009_Xiamen_University_Art/DS108646.jpg"
+      "thumb": "images/institutions/009_Xiamen_University_Art/06.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/DS209024.jpg",
-      "large": "images/institutions/009_Xiamen_University_Art/DS209024.jpg"
+      "thumb": "images/institutions/009_Xiamen_University_Art/07.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/009_Xiamen_University_Art/WechatIMG2795.png",
-      "large": "images/institutions/009_Xiamen_University_Art/WechatIMG2795.png"
+      "thumb": "images/institutions/009_Xiamen_University_Art/08.jpg",
+      "large": "images/institutions/009_Xiamen_University_Art/08-large.jpg"
     }
   ],
   "yesul-sanghoe": [
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/1. 2011 예술상회 전경.jpg",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/1. 2011 예술상회 전경.jpg"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/01.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/2..JPG",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/2..JPG"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/02.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/3. 예술상회-별똥대.jpg",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/3. 예술상회-별똥대.jpg"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/03.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/4..jpg",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/4..jpg"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/04.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/5..JPG",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/5..JPG"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/05.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/6..JPG",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/6..JPG"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/06.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/7..JPG",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/7..JPG"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/07.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/8..jpg",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/8..jpg"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/08.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/08-large.jpg"
     },
     {
-      "thumb": "images/institutions/010_653_Yesul_Sanghoe/9. 2019 맘마-한국.jpg",
-      "large": "images/institutions/010_653_Yesul_Sanghoe/9. 2019 맘마-한국.jpg"
+      "thumb": "images/institutions/010_653_Yesul_Sanghoe/09.jpg",
+      "large": "images/institutions/010_653_Yesul_Sanghoe/09-large.jpg"
     }
   ]
 };
