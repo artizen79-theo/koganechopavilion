@@ -475,7 +475,24 @@ const INSTITUTIONS_DATA = [
     website: "www.koganecho.net",
     instagram: "@koganechoamc/@koganecho_bazaar",
     descriptionKo: `코가네쵸 에리어 매니지먼트 센터는 일본 요코하마의 과거 우범지대였던 코가네쵸와 히노데쵸 지역을 문화예술로 지역을 재생하기 위해 설립된 NPO 법인이다. 지역민과 행정, 예술가가 협력하여 철도 고가 하부의 빈 공간과 점포를 아티스트와 연구자 등을 위한 스튜디오와 갤러리로 개조하였으며, 아티스트 인 레지던시 프로그램 및 매해 개최되는 예술 축제인 '코가네쵸 바자르'를 기획, 운영하고 있다. 이를 통해 우범지역을 안전하고 활력 넘치는 문화예술 마을로 지속적인 변화를 이끌어내고 있다.`,
-    descriptionEn: `Koganecho Area Management Center is a non-profit organization established to revitalize the Koganecho and Hinodecho areas in Yokohama, Japan—formerly known as a high-crime red-light district—through culture and art. In collaboration with local residents, municipal government, and artists, the Center transformed vacant spaces and former storefronts under the elevated railway tracks into studios and galleries for artists and researchers. It plans and operates an artist-in-residence program and the annual art festival "Koganecho Bazaar," leading an ongoing transformation of the area into a safe and vibrant art community.`
+    descriptionEn: `Koganecho Area Management Center is a non-profit organization established to revitalize the Koganecho and Hinodecho areas in Yokohama, Japan—formerly known as a high-crime red-light district—through culture and art. In collaboration with local residents, municipal government, and artists, the Center transformed vacant spaces and former storefronts under the elevated railway tracks into studios and galleries for artists and researchers. It plans and operates an artist-in-residence program and the annual art festival "Koganecho Bazaar," leading an ongoing transformation of the area into a safe and vibrant art community.`,
+    links: [
+          {
+                "type": "website",
+                "url": "https://koganecho.net/",
+                "label": "koganecho.net"
+          },
+          {
+                "type": "instagram",
+                "url": "https://instagram.com/koganechoamc",
+                "label": "@koganechoamc"
+          },
+          {
+                "type": "instagram",
+                "url": "https://instagram.com/koganecho_bazaar",
+                "label": "@koganecho_bazaar"
+          }
+    ]
   },
   {
     id: "a4-art-museum",
@@ -493,7 +510,19 @@ const INSTITUTIONS_DATA = [
     website: "www.a4residency.com",
     instagram: "@a4_residency_art_center",
     descriptionKo: `중국 청두에 위치한 A4 레지던시 아트센터(A4 Residency Art Center)는 예술적 리서치, 다문화 교류, 지역사회 참여를 전문으로 하는 다학제간 국제 레지던시 플랫폼이다. 2011년 설립 이래, 미술·문학·음악·건축·디자인·과학 등 다채로운 분야에 걸쳐 44개 이상의 국가 및 지역에서 온 359명의 창작자들과 협력해 왔다. A4는 레지던시, 공공 프로그램, 지역 네트워크를 통해 창작자들이 장소특정적 작업을 발전시키고 지역사회, 문화기관, 도시적 맥락과 의미 있는 관계를 맺을 수 있도록 활동하고 있다.`,
-    descriptionEn: `Located in Chengdu, China, A4 Residency Art Center is a multidisciplinary international residency platform dedicated to artistic research, cross-cultural exchange, and local engagement. Since 2011, A4 has worked with 359 creators from over 44 countries and regions across art, literature, music, architecture, design, science, and other fields. Through residencies, public programs, and local networks, A4 supports creators in developing site-responsive practices and building meaningful connections with communities, institutions, and urban contexts.`
+    descriptionEn: `Located in Chengdu, China, A4 Residency Art Center is a multidisciplinary international residency platform dedicated to artistic research, cross-cultural exchange, and local engagement. Since 2011, A4 has worked with 359 creators from over 44 countries and regions across art, literature, music, architecture, design, science, and other fields. Through residencies, public programs, and local networks, A4 supports creators in developing site-responsive practices and building meaningful connections with communities, institutions, and urban contexts.`,
+    links: [
+          {
+                "type": "website",
+                "url": "http://www.a4residency.com",
+                "label": "a4residency.com"
+          },
+          {
+                "type": "instagram",
+                "url": "https://instagram.com/a4_residency_art_center",
+                "label": "@a4_residency_art_center"
+          }
+    ]
   },
   {
     id: "absolute-space-air",
@@ -511,7 +540,14 @@ const INSTITUTIONS_DATA = [
     website: "www.absoluteartspace.wixsite.com/absolute-art-space",
     instagram: "",
     descriptionKo: `대만 타이난에 위치한 '앱솔루트 스페이스(Absolute Space for The Arts)'는 현대 미술과 지역 문화 진흥을 목표로 2013년에 설립되었다. 타이난 문화에 대한 리서치와 현장 조사를 결합하여 현대 미술 전시 및 프로젝트를 기획하며, 아티스트 강연, 워크숍, 국내외 포럼, 'ASA 훙셴(Hornsun)' 비평상, '비평의 전당' 비평 워크숍, '아티스트 스튜디오 국제 교류' 프로젝트 등 다양한 활동과 실천을 도모한다. 아울러 2024년에는 공간과 지역사회, 도시 간의 관계를 한층 더 심화하기 위해 '앱솔루트 스페이스 레지던시(Absolute Space AIR)'를 설립하였다.`,
-    descriptionEn: `Located in Tainan City, "Absolute Space for The Arts" was established in 2013 with the aim of promoting contemporary art and local culture. By combining fieldwork with research on Tainan culture, it organizes contemporary art exhibitions and projects, as well as artist lectures, workshops, domestic and international forums, "ASA Hornsun" art criticism award, "Art Criticism Hall" art criticism workshops, and " International Communication in Artists' Studio" project to cultivate diverse activities and practices. We also established "Absolute Space AIR " in 2024 to deepen the relationship between space, the community, and the city.`
+    descriptionEn: `Located in Tainan City, "Absolute Space for The Arts" was established in 2013 with the aim of promoting contemporary art and local culture. By combining fieldwork with research on Tainan culture, it organizes contemporary art exhibitions and projects, as well as artist lectures, workshops, domestic and international forums, "ASA Hornsun" art criticism award, "Art Criticism Hall" art criticism workshops, and " International Communication in Artists' Studio" project to cultivate diverse activities and practices. We also established "Absolute Space AIR " in 2024 to deepen the relationship between space, the community, and the city.`,
+    links: [
+          {
+                "type": "website",
+                "url": "https://absoluteartspace.wixsite.com/absolute-art-space",
+                "label": "absoluteartspace.wixsite.com"
+          }
+    ]
   },
   {
     id: "vietnam-air-network",
@@ -529,7 +565,24 @@ const INSTITUTIONS_DATA = [
     website: "www.airvine.info",
     instagram: "@airvine.info",
     descriptionKo: `Artist-in-Residence Vietnam Network (AiRViNe)는 2023년 Hanoi Grapevine의 디렉터 Nguyễn Tú Hằng과 작가 Trần Thảo Miên이 설립하였다. AiRViNe는 문화 교류, 전문성 개발, 커뮤니티 참여, 지속 가능한 예술 인프라를 촉진하는 아티스트 레지던시를 통해 베트남 동시대 미술계의 성장을 지원하는 것을 목표로 한다. 2024년부터 AiRViNe는 On the Move (OTM), Green Art Lab Alliance (GALA), AIR NETWORK JAPAN (ANJ), Taiwan Art Spaces Alliance (TASA)의 공식 회원으로 활동하고 있다. 현재 AiRViNe는 일본국제교류기금의 Visual Arts Fellowship 지원을 받아 일본과 동남아시아의 아티스트 레지던시 모델에 관한 리서치를 진행하고 있다.`,
-    descriptionEn: `Founded in 2023 by Nguyễn Tú Hằng (Director of Hanoi Grapevine) and artist Trần Thảo Miên, Artist-in-Residence Vietnam Network (AiRViNe) aims to support the growth of Vietnam's contemporary art scene through artist residencies that foster cultural exchange, professional development, community engagement, and sustainable art infrastructure. Since 2024, AiRViNe has been an official member of On the Move (OTM), Green Art Lab Alliance (GALA), AIR NETWORK JAPAN (ANJ) and Taiwan Art Spaces Alliance (TASA). Currently, AiRViNe is conducting research on artist residency models in Japan and Southeast Asia under a Visual Arts Fellowship supported by the Japan Foundation.`
+    descriptionEn: `Founded in 2023 by Nguyễn Tú Hằng (Director of Hanoi Grapevine) and artist Trần Thảo Miên, Artist-in-Residence Vietnam Network (AiRViNe) aims to support the growth of Vietnam's contemporary art scene through artist residencies that foster cultural exchange, professional development, community engagement, and sustainable art infrastructure. Since 2024, AiRViNe has been an official member of On the Move (OTM), Green Art Lab Alliance (GALA), AIR NETWORK JAPAN (ANJ) and Taiwan Art Spaces Alliance (TASA). Currently, AiRViNe is conducting research on artist residency models in Japan and Southeast Asia under a Visual Arts Fellowship supported by the Japan Foundation.`,
+    links: [
+          {
+                "type": "website",
+                "url": "https://airvine.info",
+                "label": "airvine.info"
+          },
+          {
+                "type": "facebook",
+                "url": "https://facebook.com/airvine.info",
+                "label": "facebook.com/airvine.info"
+          },
+          {
+                "type": "instagram",
+                "url": "https://instagram.com/airvine.info",
+                "label": "@airvine.info"
+          }
+    ]
   },
   {
     id: "bbongbbong-bridge",
@@ -547,7 +600,14 @@ const INSTITUTIONS_DATA = [
     website: "",
     instagram: "@spaceppong",
     descriptionKo: `공유공간 뽕뽕브릿지는 2015년 한국 광주에서 설립되어 현재 발산마을을 기반으로 활동하는 독립예술공간이다. 신진예술가의 발굴과 예술가의 창작실험을 지원하며, 공간과 자원의 공유가 예술의 생산과 창작의 확장으로 이어질 수 있는지를 실험한다. 지역성과 동시대성을 연결하며 국내외 예술가들과 함께 새로운 예술 생태계와 국제적 네트워크를 만들어가고 있다.`,
-    descriptionEn: `Spaceppong is an independent art space located in Balsan Village, Gwangju. Dedicated to discovering emerging talent and nurturing bold experimentation, it investigates how shared space and resources can enrich creative practice. Rooted in local narratives while actively engaging with global art discourses, Spaceppong collaborates with Korean and international artists to build vibrant, sustainable art ecosystems.`
+    descriptionEn: `Spaceppong is an independent art space located in Balsan Village, Gwangju. Dedicated to discovering emerging talent and nurturing bold experimentation, it investigates how shared space and resources can enrich creative practice. Rooted in local narratives while actively engaging with global art discourses, Spaceppong collaborates with Korean and international artists to build vibrant, sustainable art ecosystems.`,
+    links: [
+          {
+                "type": "instagram",
+                "url": "https://www.instagram.com/spaceppong/",
+                "label": "@spaceppong"
+          }
+    ]
   },
   {
     id: "totatoga",
@@ -565,7 +625,19 @@ const INSTITUTIONS_DATA = [
     website: "www.totatoga.com",
     instagram: "@totatoga.busan",
     descriptionKo: `또따또가는 부산문화재단이 주최하는 예술가 레지던시로, 부산 원도심의 유휴공간을 창작공간으로 전환해 지역 예술가들의 활동을 지원합니다. 2010년 시작해 한 기수당 3년간 운영되며, 현재 6기 입주예술가 25팀, 156명이 창작과 교류를 이어가고 있습니다. 예술가와 시민, 지역이 함께 문화를 나누며 상생하는 예술생태계를 만들어가는 공간입니다. 다양한 프로그램을 통해 창작 역량과 국제 교류, 지역 연계를 꾸준히 확장합니다.`,
-    descriptionEn: `The Historic Downtown Culture Cluster Totatoga is an artist residency organized by the Busan Cultural Foundation. It transforms vacant spaces in Busan's historic downtown into creative studios and supports local artists through three-year residency cycles. Established in 2010, Totatoga currently hosts its sixth cohort of 25 teams and 156 artists. Through diverse programs, it fosters artistic development, international exchange, community engagement, and an art ecosystem where artists, citizens, and the city grow together.`
+    descriptionEn: `The Historic Downtown Culture Cluster Totatoga is an artist residency organized by the Busan Cultural Foundation. It transforms vacant spaces in Busan's historic downtown into creative studios and supports local artists through three-year residency cycles. Established in 2010, Totatoga currently hosts its sixth cohort of 25 teams and 156 artists. Through diverse programs, it fosters artistic development, international exchange, community engagement, and an art ecosystem where artists, citizens, and the city grow together.`,
+    links: [
+          {
+                "type": "website",
+                "url": "https://totatoga.com",
+                "label": "totatoga.com"
+          },
+          {
+                "type": "instagram",
+                "url": "https://instagram.com/totatoga.busan",
+                "label": "@totatoga.busan"
+          }
+    ]
   },
   {
     id: "daegu-art-factory",
@@ -583,7 +655,19 @@ const INSTITUTIONS_DATA = [
     website: "www.daeguartfactory.kr",
     instagram: "@dafsym",
     descriptionKo: `대구예술발전소는 근대산업유산인 대구연초제조창 별관 창고를 복합문화예술공간으로 재생한 공간이다. 과거 건물의 가치와 역사를 보존하면서 실험적 예술 창작과 국내외 교류를 지원하는 거점으로 자리매김하며, 레지던시 운영을 비롯해 전시, 교육, 시민 참여 프로그램 등을 통해 예술가와 시민이 함께 소통하고 성장하는 열린 문화 플랫폼으로 운영되고 있다.`,
-    descriptionEn: `Daegu Art Factory is a multidisciplinary arts and cultural space created through the adaptive reuse of the annex warehouse of the former Daegu Tobacco Factory, an important site of Korea's modern industrial heritage. Preserving the historical value and legacy of the building, it has established itself as a hub for experimental artistic creation and domestic and international exchange. Through its artist residency program, exhibitions, educational initiatives, and public engagement activities, Daegu Art Factory serves as an open cultural platform where artists and citizens connect, collaborate, and grow together.`
+    descriptionEn: `Daegu Art Factory is a multidisciplinary arts and cultural space created through the adaptive reuse of the annex warehouse of the former Daegu Tobacco Factory, an important site of Korea's modern industrial heritage. Preserving the historical value and legacy of the building, it has established itself as a hub for experimental artistic creation and domestic and international exchange. Through its artist residency program, exhibitions, educational initiatives, and public engagement activities, Daegu Art Factory serves as an open cultural platform where artists and citizens connect, collaborate, and grow together.`,
+    links: [
+          {
+                "type": "website",
+                "url": "https://www.daeguartfactory.kr/",
+                "label": "daeguartfactory.kr"
+          },
+          {
+                "type": "instagram",
+                "url": "https://www.instagram.com/dafsym",
+                "label": "@dafsym"
+          }
+    ]
   },
   {
     id: "donggu-house-of-humanities",
@@ -601,7 +685,29 @@ const INSTITUTIONS_DATA = [
     website: "www.donggu.kr/humancity/main/",
     instagram: "@donggu_inmunhakdang",
     descriptionKo: `동구 인문학당은 2022년, 한국 광주에 기반을 두고 인문활성화를 목적으로 운영하고 있는 공간이다. 오래된 건축자산을 보존, 활용한 근대가옥의 고즈넉함과 현대건축의 모던함이 공존하는 유니크한 곳으로, 도서전시, 음악, 영화, 음식, 문화예술교육 등 경계 없는 일상의 인문활동을 상시 운영중이며 삶의 가치를 재조명하고 지역의 활력을 더하고 있는 인문거점공간이다.`,
-    descriptionEn: `Established in 2022 in Gwangju, South Korea, Dong-gu Inmunhakdang is a cultural hub operating to vitalize the humanities. As a unique space where the tranquil charm of a preserved modern heritage house meets contemporary architecture, it regularly hosts boundaryless daily humanistic programs including book exhibitions, music, film, cuisine, and arts education, reilluminating life's values and energizing the local community.`
+    descriptionEn: `Established in 2022 in Gwangju, South Korea, Dong-gu Inmunhakdang is a cultural hub operating to vitalize the humanities. As a unique space where the tranquil charm of a preserved modern heritage house meets contemporary architecture, it regularly hosts boundaryless daily humanistic programs including book exhibitions, music, film, cuisine, and arts education, reilluminating life's values and energizing the local community.`,
+    links: [
+          {
+                "type": "website",
+                "url": "http://www.donggu.kr/homancity",
+                "label": "donggu.kr/homancity"
+          },
+          {
+                "type": "instagram",
+                "url": "https://instagram.com/dongu_inmun",
+                "label": "@dongu_inmun"
+          },
+          {
+                "type": "facebook",
+                "url": "https://facebook.com/inmundonggu",
+                "label": "@inmundonggu"
+          },
+          {
+                "type": "blog",
+                "url": "https://blog.naver.com/donggu_inmunhakdang",
+                "label": "blog.naver.com/donggu_inmunhakdang"
+          }
+    ]
   },
   {
     id: "xiamen-university-art",
@@ -621,7 +727,8 @@ const INSTITUTIONS_DATA = [
     website: "",
     instagram: "",
     descriptionKo: `2023년 말, 샤먼대학교는 룽후진 정부, 푸린촌 위원회, 진장 투난 문화커뮤니케이션 유한회사와 함께 "No. 97 West District International Art Community" 프로젝트를 공동으로 설립하기 위한 논의를 진행하였으며, 이를 위해 연구 프로젝트가 마련되었다. 이 프로젝트의 총괄 기획자는 샤먼대학교 창의혁신연구소의 Lin Lin 부교수이다. 진장시 룽후진 푸린촌의 전통 민난 건축 안에 자리한 "97 West District International Art Community"는 국제 전시, 아티스트 레지던시 프로그램, 예술을 통한 공공 공간 재생, 예술 워크숍, 아트 마켓 등 다양한 활동을 제공한다. 국내외 예술가와 여러 분야의 연구자를 초청하여, 혁신적이고 통찰력 있는 관점에서 푸린촌과 민난 지역의 문화예술 유산을 깊이 탐구하고자 한다. 예술적 개입이 이 지역에 새로운 생명력을 불어넣고, 예술가와 주민이 협력하여 자연과 조화롭게 공존하는 포용적인 커뮤니티를 만들어가는 과정을 함께 목격하고자 한다.`,
-    descriptionEn: `At the end of 2023, Xiamen University, along with the Longhu Town Government, Fulin Village Committee, and Jinjiang Tu'nan Cultural Communication Co., Ltd, engaged in discussions to collaboratively establish the "No. 97 West District International Art Community" project, for which a research project was set up. The project's overall planner is Associate Professor Lin Lin from the Institute of Creativity and Innovation at Xiamen University. Located within the traditional Minnan architecture of Fulin Village, Longhu Town, Jinjiang, " 97 West District International Art Community" offers a diverse range of activities, including international exhibitions, artist residency programs, public space rejuvenation through art, art workshops, and art markets. We cordially invite domestic and international artists and scholars from diverse fields to delve into the cultural and artistic legacy of Fulin Village and the Minnan region from innovative and insightful perspectives. We aspire to witness how art intervention can breathe new life into the area, creating an inclusive community where artists and residents can collaborate to establish a harmonious coexistence with nature.`
+    descriptionEn: `At the end of 2023, Xiamen University, along with the Longhu Town Government, Fulin Village Committee, and Jinjiang Tu'nan Cultural Communication Co., Ltd, engaged in discussions to collaboratively establish the "No. 97 West District International Art Community" project, for which a research project was set up. The project's overall planner is Associate Professor Lin Lin from the Institute of Creativity and Innovation at Xiamen University. Located within the traditional Minnan architecture of Fulin Village, Longhu Town, Jinjiang, " 97 West District International Art Community" offers a diverse range of activities, including international exhibitions, artist residency programs, public space rejuvenation through art, art workshops, and art markets. We cordially invite domestic and international artists and scholars from diverse fields to delve into the cultural and artistic legacy of Fulin Village and the Minnan region from innovative and insightful perspectives. We aspire to witness how art intervention can breathe new life into the area, creating an inclusive community where artists and residents can collaborate to establish a harmonious coexistence with nature.`,
+    links: []
   },
   {
     id: "yesul-sanghoe",
@@ -639,7 +746,8 @@ const INSTITUTIONS_DATA = [
     website: "",
     instagram: "",
     descriptionKo: `653 예술상회는 2011년 청주시 사직동에서 설립해 국내외의 예술가들이 상호 교류하는 사랑방 레지던시 프로그램, 어린이 문화예술교육 프로그램, 미관을 개선하는 공동체예술 프로그램, 동네 주민자서전을 통해 마을의 소소한 역사를 기록하는 주민참여 프로그램, 공동체 주민과 함께하는 축제 등을 운영하였다. 현재 653예술상회는 다양한 예술가의 행복을 수집하고 예술적인 사고와 행동을 고민하는 '사랑방' 역할을 하고 있다.`,
-    descriptionEn: `Established in 2011 in Sajik-dong, Cheongju, 653artfirm operates as a creative nexus connecting artists, residents, and the local community. Through its flagship 'Living Room Residency', children's art education, oral history documentation, and neighborhood festivals, the space bridges artistic practice with everyday life. Serving as a communal 'living room,' 653artfirm gathers diverse artistic practices and continues to contemplate artistic thinking and action.`
+    descriptionEn: `Established in 2011 in Sajik-dong, Cheongju, 653artfirm operates as a creative nexus connecting artists, residents, and the local community. Through its flagship 'Living Room Residency', children's art education, oral history documentation, and neighborhood festivals, the space bridges artistic practice with everyday life. Serving as a communal 'living room,' 653artfirm gathers diverse artistic practices and continues to contemplate artistic thinking and action.`,
+    links: []
   }
 ];
 
