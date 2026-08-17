@@ -603,8 +603,7 @@ button {
 }
 
 .artist-detail-img {
-  position: sticky;
-  top: 6rem;
+  position: static;
   background: var(--bg-card);
   border: 1px solid var(--border-light);
   border-radius: 4px;
@@ -612,15 +611,26 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 
 .artist-detail-img img {
   width: 100%;
   height: auto;
-  max-height: 80vh;
+  max-height: 380px;
   object-fit: contain;
   border-radius: 2px;
   display: block;
+}
+
+@media (min-width: 768px) {
+  .artist-detail-img {
+    position: sticky;
+    top: 6rem;
+  }
+  .artist-detail-img img {
+    max-height: 80vh;
+  }
 }
 
 .artist-meta {
@@ -647,9 +657,9 @@ button {
 }
 
 .artist-detail-name {
-  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-size: clamp(1.85rem, 5vw, 3.5rem);
   font-weight: 900;
-  line-height: 1.08;
+  line-height: 1.15;
   margin: 0 0 0.45rem;
   color: var(--text-primary);
 }
