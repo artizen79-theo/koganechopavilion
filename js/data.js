@@ -21,7 +21,7 @@ const EXHIBITION_INFO = {
       addressEn: "20 Dongmyeong-ro, Dong-gu, Gwangju",
       roleKo: "Part 2: 아카이브 전시 및 네트워크 라운지",
       roleEn: "Part 2: Archive Exhibition & Network Lounge",
-      image: "images/institutions/donggu.jpg"
+      image: "images/institutions/008_Donggu_House_of_Humanities/01.jpg"
     }
   ],
   organizersKo: "NPO 법인 코가네쵸 에리어 매니지먼트 센터",
@@ -611,7 +611,7 @@ const INSTITUTIONS_DATA = [
   },
   {
     id: "totatoga",
-    image: "images/institutions/006_Totatoga/01.jpg",
+    image: "images/institutions/006_TOTATOGA/01.jpg",
     nameKo: "원도심 창작공간 또따또가",
     nameEn: "The Historic Downtown Culture Cluster Totatoga",
     regionKo: "부산",
@@ -933,36 +933,36 @@ const INSTITUTION_IMAGES = {
   ],
   "totatoga": [
     {
-      "thumb": "images/institutions/006_Totatoga/01.jpg",
-      "large": "images/institutions/006_Totatoga/01-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/01.jpg",
+      "large": "images/institutions/006_TOTATOGA/01-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_Totatoga/02.jpg",
-      "large": "images/institutions/006_Totatoga/02-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/02.jpg",
+      "large": "images/institutions/006_TOTATOGA/02-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_Totatoga/03.jpg",
-      "large": "images/institutions/006_Totatoga/03-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/03.jpg",
+      "large": "images/institutions/006_TOTATOGA/03-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_Totatoga/04.jpg",
-      "large": "images/institutions/006_Totatoga/04-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/04.jpg",
+      "large": "images/institutions/006_TOTATOGA/04-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_Totatoga/05.jpg",
-      "large": "images/institutions/006_Totatoga/05-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/05.jpg",
+      "large": "images/institutions/006_TOTATOGA/05-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_Totatoga/06.jpg",
-      "large": "images/institutions/006_Totatoga/06-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/06.jpg",
+      "large": "images/institutions/006_TOTATOGA/06-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_Totatoga/07.jpg",
-      "large": "images/institutions/006_Totatoga/07-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/07.jpg",
+      "large": "images/institutions/006_TOTATOGA/07-large.jpg"
     },
     {
-      "thumb": "images/institutions/006_Totatoga/08.jpg",
-      "large": "images/institutions/006_Totatoga/08-large.jpg"
+      "thumb": "images/institutions/006_TOTATOGA/08.jpg",
+      "large": "images/institutions/006_TOTATOGA/08-large.jpg"
     }
   ],
   "daegu-art-factory": [

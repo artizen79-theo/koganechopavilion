@@ -354,7 +354,6 @@ function renderInstitutionDetail() {
       <div class="artist-detail-info">
         <div class="artist-meta">
           <span class="artist-country">${region}</span>
-          ${role ? `<span class="artist-medium">${role}</span>` : ''}
         </div>
 
         <h1 class="artist-detail-name">${name}</h1>
