@@ -258,13 +258,56 @@ function openArtistModal(artistId) {
   modal.classList.add('active');
 }
 
+// Institution SNS/website link chips
+function renderInstitutionLinks(inst) {
+  if (!inst) return '';
+  const links = [];
+
+  if (inst.website && inst.website.trim()) {
+    let url = inst.website.trim();
+    if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
+    links.push({
+      type: 'website',
+      url: url,
+      label: inst.website.replace(/^https?:\/\//i, '').replace(/\/$/, '')
+    });
+  }
+
+  if (inst.instagram && inst.instagram.trim()) {
+    const handles = inst.instagram.split('/');
+    handles.forEach(h => {
+      const clean = h.trim().replace(/^@/, '');
+      if (clean) {
+        links.push({
+          type: 'instagram',
+          url: `https://www.instagram.com/${clean}/`,
+          label: `@${clean}`
+        });
+      }
+    });
+  }
+
+  if (inst.facebook && inst.facebook.trim()) {
+    let url = inst.facebook.trim();
+    if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
+    links.push({
+      type: 'website',
+      url: url,
+      label: 'Facebook'
+    });
+  }
+
+  if (!links.length) return '';
+  return renderArtistLinks(links);
+}
+
 // Render Institution Detail Page (institution.html?id=...)
 function renderInstitutionDetail() {
   const container = document.getElementById('institution-detail');
   if (!container || typeof INSTITUTIONS_DATA === 'undefined') return;
 
   const params = new URLSearchParams(window.location.search);
-  const id = params.get('id');
+  const id = params.get('id') || 'koganecho';
   const inst = INSTITUTIONS_DATA.find(i => i.id === id);
   const ko = currentLang === 'ko';
 
@@ -290,6 +333,7 @@ function renderInstitutionDetail() {
   const subName = ko ? inst.nameEn : inst.nameKo;
   const region = ko ? `${inst.countryKo} (${inst.regionKo})` : `${inst.countryEn} (${inst.regionEn})`;
   const role = ko ? inst.roleKo : inst.roleEn;
+  const director = ko ? inst.directorKo : inst.directorEn;
   const desc = ko ? inst.descriptionKo : inst.descriptionEn;
 
   document.title = `${name} | 코가네쵸 파빌리온`;
@@ -308,12 +352,20 @@ function renderInstitutionDetail() {
       <div class="artist-detail-info">
         <div class="artist-meta">
           <span class="artist-country">${region}</span>
+          ${role ? `<span class="artist-medium">${role}</span>` : ''}
         </div>
 
         <h1 class="artist-detail-name">${name}</h1>
         <div class="artist-detail-subname">${subName}</div>
 
-        <div class="artist-bio-section">
+        ${director ? `
+          <div class="artist-info-row" style="margin-bottom: 0.9rem;">
+            <strong>${ko ? '대표 / 디렉터' : 'Director'}:</strong> ${director}
+          </div>` : ''}
+
+        ${renderInstitutionLinks(inst)}
+
+        <div class="artist-bio-section" style="margin-top: 1.5rem;">
           <h3>${ko ? '기관 소개' : 'About Institution'}</h3>
           <p>${desc}</p>
         </div>
@@ -365,6 +417,11 @@ function openInstitutionModal(instId) {
   document.getElementById('modal-inst-subname').textContent = currentLang === 'ko' ? inst.nameEn : inst.nameKo;
   document.getElementById('modal-inst-role').textContent = currentLang === 'ko' ? inst.roleKo : inst.roleEn;
   document.getElementById('modal-inst-desc').textContent = currentLang === 'ko' ? inst.descriptionKo : inst.descriptionEn;
+
+  const linksContainer = document.getElementById('modal-inst-links');
+  if (linksContainer) {
+    linksContainer.innerHTML = renderInstitutionLinks(inst);
+  }
 
   const imgContainer = document.getElementById('modal-inst-img-wrapper');
   if (imgContainer) {
