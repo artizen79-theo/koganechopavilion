@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credits - Koganecho Pavilion 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-badge">
+        KOGANECHO PAVILION
+      </a>
+
+      <div class="header-controls">
+        <button onclick="toggleLanguage()" class="lang-toggle-btn">
+          <span id="lang-btn-text">EN / KR</span>
+        </button>
+
+        <button onclick="openNavMenu()" class="menu-trigger-btn" aria-label="Toggle Menu">
+          <span>☰</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fullscreen Navigation Menu Overlay -->
+  <div id="nav-overlay" class="nav-overlay">
+    <div class="nav-overlay-header">
+      <a href="index.html" class="brand-badge" onclick="closeNavMenu()">
+        KOGANECHO PAVILION
+      </a>
+      <button onclick="closeNavMenu()" class="nav-overlay-close" aria-label="Close Menu">
+        <span>✕</span>
+      </button>
+    </div>
+    <div class="nav-overlay-body">
+      <div class="nav-menu-list">
+        <a href="index.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="코가네쵸바자르 2026 in 광주비엔날레" data-en="Koganecho Bazaar 2026 in Gwangju Biennale">코가네쵸바자르 2026 in 광주비엔날레</span>
+          <span class="nav-menu-desc">Koganecho Bazaar 2026 in Gwangju Biennale</span>
+        </a>
+        <a href="part1.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="Part 1: 생명처럼 숨 쉬는 이 마을" data-en="Part 1: A Neighborhood That Breathes Like a Living Being">Part 1: 생명처럼 숨 쉬는 이 마을</span>
+          <span class="nav-menu-desc">A Neighborhood That Breathes Like a Living Being</span>
+          <span class="nav-menu-subdesc">전일빌딩245 시민갤러리 | Jeon-il Building 245 Citizen Gallery</span>
+        </a>
+        <a href="part2.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="Part 2: 관계의 시간 - 아카이브 전시" data-en="Part 2: Time of Relations - Archive Exhibition">Part 2: 관계의 시간 - 아카이브 전시</span>
+          <span class="nav-menu-desc">Time of Relations - Archive Exhibition</span>
+          <span class="nav-menu-subdesc">동구인문학당 | Dong-gu Inmunhakdang (House of Humanities)</span>
+        </a>
+        <a href="credits.html" class="nav-menu-item active" onclick="closeNavMenu()">
+          <span data-ko="크레딧" data-en="Credits">크레딧</span>
+          <span class="nav-menu-desc">Credits & Organizing Network</span>
+          <span class="nav-menu-subdesc">Overview • Organizers • Curators • Partner Institutions</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main style="padding: 3rem 0 5rem 0;">
+    <div class="container">
+
+      <!-- Credits Hero Title -->
+      <div style="margin-bottom: 3.5rem; text-align: center;">
+        <h1 style="font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 900; line-height: 1.2; margin-bottom: 1rem;" data-ko="크레딧 & 개요" data-en="Credits & Overview">
+          크레딧 & 개요
+        </h1>
+      </div>
+
+      <!-- Metadata Box (Transferred from main page) -->
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-light); border-radius: 4px; padding: 2rem 2.5rem; margin-bottom: 3.5rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 2rem;">
+          <div>
+            <div style="font-size: 0.75rem; color: var(--accent-green-light); font-family: var(--font-mono); margin-bottom: 0.4rem; text-transform: uppercase;">
+              EXHIBITION PERIOD
+            </div>
+            <div style="font-weight: 700; font-size: 1.1rem; color: var(--text-primary);" data-ko="2026년 9월 5일(토) – 11월 15일(일)" data-en="September 5 – November 15, 2026">
+              2026년 9월 5일(토) – 11월 15일(일)
+            </div>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; color: var(--accent-green-light); font-family: var(--font-mono); margin-bottom: 0.4rem; text-transform: uppercase;">
+              VENUES
+            </div>
+            <div style="font-weight: 700; font-size: 1.1rem; color: var(--text-primary);" data-ko="전일빌딩245 시민갤러리 & 동구 인문학당" data-en="Jeon-il Building 245 & Dong-gu House of Humanities">
+              전일빌딩245 시민갤러리 & 동구 인문학당
+            </div>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; color: var(--accent-green-light); font-family: var(--font-mono); margin-bottom: 0.4rem; text-transform: uppercase;">
+              NETWORK ALLIANCE
+            </div>
+            <div style="font-weight: 700; font-size: 1.1rem; color: var(--text-primary);" data-ko="5개국 • 10개 기관 • 13인 작가" data-en="5 Countries • 10 Institutions • 13 Artists">
+              5개국 • 10개 기관 • 13인 작가
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pavilion Overview & 2-Column Part 1 / Part 2 Credits Section -->
+      <div class="green-wireframe-box" style="padding: 2.5rem; border-radius: 4px; margin-bottom: 3.5rem;">
+        <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-green-light); margin-bottom: 0.5rem;" data-ko="제16회 광주비엔날레 파빌리온" data-en="16th Gwangju Biennale Pavilion">
+          제16회 광주비엔날레 파빌리온
+        </div>
+        <h2 style="font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 900; color: var(--text-primary); margin-bottom: 2rem;" data-ko="코가네쵸바자르 2026 in 광주비엔날레" data-en="Koganecho Bazaar 2026 in Gwangju Biennale">
+          코가네쵸바자르 2026 in 광주비엔날레
+        </h2>
+
+        <!-- 2-Column Detailed Grid for Part 1 & Part 2 -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+          
+          <!-- Column 1: Part 1 Exhibition & Artists -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 4px; padding: 2rem; display: flex; flex-direction: column; gap: 1.5rem;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-blue-light); margin-bottom: 0.35rem; font-weight: 700;">PART 1</div>
+              <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0;" data-ko="Part 1: 생명처럼 숨 쉬는 이 마을" data-en="Part 1: A Neighborhood That Breathes Like a Living Being">
+                Part 1: 생명처럼 숨 쉬는 이 마을
+              </h3>
+            </div>
+
+            <!-- Exhibition Overview -->
+            <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem; display: grid; gap: 0.85rem; font-size: 0.9rem;">
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="전시일정" data-en="EXHIBITION DATES">전시일정</span>
+                <span style="color: var(--text-primary);" data-ko="2026. 09. 05. - 11. 15." data-en="Sep 5, 2026 – Nov 15, 2026">2026. 09. 05. - 11. 15.</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="관람시간" data-en="OPENING HOURS">관람시간</span>
+                <span style="color: var(--text-primary);" data-ko="오전 10시 - 오후 6시" data-en="10:00 AM – 6:00 PM">오전 10시 - 오후 6시</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="휴관일" data-en="CLOSED">휴관일</span>
+                <span style="color: var(--text-primary);" data-ko="매주 월요일, 추석 당일" data-en="Every Monday, Chuseok Day">매주 월요일, 추석 당일</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="입장료" data-en="ADMISSION">입장료</span>
+                <span style="color: var(--text-primary);" data-ko="무료관람" data-en="Free">무료관람</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="주최" data-en="ORGANIZED BY">주최</span>
+                <span style="color: var(--text-primary);" data-ko="코가네쵸 에리어 매니지먼트 센터, 요코하마시" data-en="Koganecho Area Management Center, City of Yokohama">코가네쵸 에리어 매니지먼트 센터, 요코하마시</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="주관" data-en="HOSTED BY">주관</span>
+                <span style="color: var(--text-primary);" data-ko="전남광주통합특별시, 광주비엔날레, 광주비엔날레파빌리온" data-en="Jeonnam Gwangju Integrated Special City, Gwangju Biennale, Gwangju Biennale Pavilion">전남광주통합특별시, 광주비엔날레, 광주비엔날레파빌리온</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="장소 및 연락처" data-en="VENUE & CONTACT">장소 및 연락처</span>
+                <span style="color: var(--text-primary); display: block;" data-ko="전일빌딩 245 시민갤러리 (3층)" data-en="Citizens Gallery, Jeonil Building 245 (3F)">전일빌딩 245 시민갤러리 (3층)</span>
+                <span style="color: var(--text-secondary); display: block; font-size: 0.85rem;" data-ko="61475 전남광주통합특별시 동구 금남로 245" data-en="245 Geumnam-ro, Dong-gu, Jeonnam-Gwangju, 61475, South Korea">61475 전남광주통합특별시 동구 금남로 245</span>
+                <span style="color: var(--text-secondary); display: block; font-size: 0.85rem; font-family: var(--font-mono);" data-ko="062-225-0245" data-en="+82-62-225-0245">062-225-0245</span>
+              </div>
+            </div>
+
+            <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem;">
+              <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.6rem;" data-ko="Part 1 큐레이터" data-en="Part 1 Curatorial Team">
+                Part 1 큐레이터
+              </h4>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary); margin: 0;" data-ko="야마노 케이, 차이 리위안, 하이 남 응우옌, 황이민, 최윤미, 이종현, 방승택, 창파" data-en="Kei Yamano, CAI Liyuan, Hai Nam Nguyen, Huang Yi Min, Choi Younmi, LEE JONG HYUN, SUNGTAEK BANG, Changpa">
+                야마노 케이, 차이 리위안, 하이 남 응우옌, 황이민, 최윤미, 이종현, 방승택, 창파
+              </p>
+            </div>
+
+            <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem;">
+              <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem;" data-ko="참여 아티스트 (13인)" data-en="Participating Artists (13)">
+                참여 아티스트 (13인)
+              </h4>
+              <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.45rem; font-size: 0.88rem; color: var(--text-secondary);">
+                <li data-ko="소에지마시노부" data-en="Shinobu Soejima">소에지마시노부</li>
+                <li data-ko="장한쉬안" data-en="Hanxuan Jiang">장한쉬안</li>
+                <li data-ko="부이바오짬" data-en="Bui Bao Tram(Rab)">부이바오짬</li>
+                <li data-ko="하쩌우바오니" data-en="Chau Bao Nhi Ha">하쩌우바오니</li>
+                <li data-ko="짠타오미엔" data-en="TRAN Thao Mien">짠타오미엔</li>
+                <li data-ko="팡웨이원" data-en="Wei-Wen Fang">팡웨이원</li>
+                <li data-ko="황이민" data-en="Yi-Min Huang">황이민</li>
+                <li data-ko="천옌이" data-en="Yen-Yi Chen">천옌이</li>
+                <li data-ko="샤오치형" data-en="Ji-Heng Xiao">샤오치형</li>
+                <li data-ko="김승택" data-en="Seung-taek Kim">김승택</li>
+                <li data-ko="이종현" data-en="Jong-Hyun Lee">이종현</li>
+                <li data-ko="이향희" data-en="Hyang-Hui Lee">이향희</li>
+                <li data-ko="심성아" data-en="Seong-A Sim">심성아</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2: Part 2 Archive & Institutions -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 4px; padding: 2rem; display: flex; flex-direction: column; gap: 1.5rem;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-blue-light); margin-bottom: 0.35rem; font-weight: 700;">PART 2</div>
+              <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0;" data-ko="Part 2: 관계의 시간 - 아카이브 전시" data-en="Part 2: Time of Relations - Archive Exhibition">
+                Part 2: 관계의 시간 - 아카이브 전시
+              </h3>
+            </div>
+
+            <!-- Exhibition Overview -->
+            <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem; display: grid; gap: 0.85rem; font-size: 0.9rem;">
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="전시일정" data-en="EXHIBITION DATES">전시일정</span>
+                <span style="color: var(--text-primary);" data-ko="2026. 09. 05. - 11. 15." data-en="Sep 5, 2026 – Nov 15, 2026">2026. 09. 05. - 11. 15.</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="관람시간" data-en="OPENING HOURS">관람시간</span>
+                <span style="color: var(--text-primary);" data-ko="오전 10시 - 오후 6시" data-en="10:00 AM – 6:00 PM">오전 10시 - 오후 6시</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="휴관일" data-en="CLOSED">휴관일</span>
+                <span style="color: var(--text-primary);" data-ko="매주 월요일, 추석 연휴, 개천절, 한글날" data-en="Every Monday, Chuseok Holidays, National Foundation Day (Oct 3), Hangeul Day (Oct 9)">매주 월요일, 추석 연휴, 개천절, 한글날</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="입장료" data-en="ADMISSION">입장료</span>
+                <span style="color: var(--text-primary);" data-ko="무료관람" data-en="Free">무료관람</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="주최" data-en="ORGANIZED BY">주최</span>
+                <span style="color: var(--text-primary);" data-ko="코가네쵸 에리어 매니지먼트 센터, 요코하마시, 동구인문학당" data-en="Koganecho Area Management Center, City of Yokohama, Dong-gu Inmunhakdang (House of Humanities)">코가네쵸 에리어 매니지먼트 센터, 요코하마시, 동구인문학당</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="주관" data-en="HOSTED BY">주관</span>
+                <span style="color: var(--text-primary);" data-ko="전남광주통합특별시, 광주비엔날레, 광주비엔날레파빌리온" data-en="Jeonnam Gwangju Integrated Special City, Gwangju Biennale, Gwangju Biennale Pavilion">전남광주통합특별시, 광주비엔날레, 광주비엔날레파빌리온</span>
+              </div>
+              <div>
+                <span style="color: var(--accent-green-light); font-weight: 700; font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; display: block; margin-bottom: 0.2rem;" data-ko="장소 및 연락처" data-en="VENUE & CONTACT">장소 및 연락처</span>
+                <span style="color: var(--text-primary); display: block;" data-ko="동구인문학당" data-en="Dong-gu Inmunhakdang (House of Humanities)">동구인문학당</span>
+                <span style="color: var(--text-secondary); display: block; font-size: 0.85rem;" data-ko="61436 전남광주통합특별시 동구 동계천로 168-5" data-en="168-5 Donggyecheon-ro, Dong-gu, Jeonnam-Gwangju, 61436, South Korea">61436 전남광주통합특별시 동구 동계천로 168-5</span>
+                <span style="color: var(--text-secondary); display: block; font-size: 0.85rem; font-family: var(--font-mono);" data-ko="062-608-2176" data-en="+82-62-608-2176">062-608-2176</span>
+              </div>
+            </div>
+
+            <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem;">
+              <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.6rem;" data-ko="Part 2 큐레이터" data-en="Part 2 Curatorial Team">
+                Part 2 큐레이터
+              </h4>
+              <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary); margin: 0;" data-ko="야마노 케이, 한태호, 토쿠나가 린노스케, 차이쉰" data-en="Kei Yamano, Theo Han, Rinnosuke Tokunaga, Cai Xun">
+                야마노 케이, 한태호, 토쿠나가 린노스케, 차이쉰
+              </p>
+            </div>
+
+            <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem;">
+              <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem;" data-ko="참여 기관 (10개)" data-en="Participating Institutions (10)">
+                참여 기관 (10개)
+              </h4>
+              <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 0.45rem; font-size: 0.85rem; color: var(--text-secondary);">
+                <li data-ko="코가네쵸 에리어 매니지먼트 센터 (일본)" data-en="Koganecho Area Management Center (Japan)">코가네쵸 에리어 매니지먼트 센터 (일본)</li>
+                <li data-ko="A4 레지던스아트센터 (중국)" data-en="A4 Residency Art Center (China)">A4 레지던스아트센터 (중국)</li>
+                <li data-ko="베트남 아티스트 인 레지던스 네트워크(AiRViNe) (베트남)" data-en="Artist-in-Residence Vietnam Network(AiRViNe) (Vietnam)">베트남 아티스트 인 레지던스 네트워크(AiRViNe) (베트남)</li>
+                <li data-ko="앱솔루트 스페이스 포 더 아트 (대만)" data-en="Absolute Space for The Arts (Taiwan)">앱솔루트 스페이스 포 더 아트 (대만)</li>
+                <li data-ko="뽕뽕브릿지 (한국)" data-en="Space PPONG (Korea)">뽕뽕브릿지 (한국)</li>
+                <li data-ko="653예술상회 (한국)" data-en="653artfirm (Korea)">653예술상회 (한국)</li>
+                <li data-ko="대구문화예술진흥원 대구예술발전소 (한국)" data-en="Daegu Art Factory of Daegu Foundation for Culture&Arts (Korea)">대구문화예술진흥원 대구예술발전소 (한국)</li>
+                <li data-ko="원도심 창작공간 또따또가 (한국)" data-en="The Historic Downtown Culture Cluster Totatoga (Korea)">원도심 창작공간 또따또가 (한국)</li>
+                <li data-ko="97 웨스트 디스트릭트 인터내셔널 아트 커뮤니티 (롱후 타운&샤먼 대학교) (중국)" data-en="97 West District International Art Community (Longhu Town & Xiamen University) (China)">97 웨스트 디스트릭트 인터내셔널 아트 커뮤니티 (롱후 타운&샤먼 대학교) (중국)</li>
+                <li data-ko="동구인문학당 (한국)" data-en="Dong-gu Inmunhakdang (House of Humanities) (Korea)">동구인문학당 (한국)</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Press Release Download -->
+      <div class="press-dl-card">
+        <div style="min-width: 240px; flex: 1;">
+          <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-blue-light); font-weight: 700; margin-bottom: 0.4rem;">PRESS RELEASE</div>
+          <h2 style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary); margin: 0 0 0.5rem 0;" data-ko="프레스 릴리즈" data-en="Press Release">
+            프레스 릴리즈
+          </h2>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.6;" data-ko="코가네쵸 파빌리온 보도자료(한국어·영어, A4 10쪽, PDF 약 1MB)를 다운로드할 수 있습니다." data-en="Download the Koganecho Pavilion press release (Korean &amp; English, A4, 10 pages, PDF ~1MB).">
+            코가네쵸 파빌리온 보도자료(한국어·영어, A4 10쪽, PDF 약 1MB)를 다운로드할 수 있습니다.
+          </p>
+        </div>
+        <a href="koganecho-press-release.pdf" download="KOGANECHO_PAVILION_PRESS_RELEASE_2026.pdf" class="press-dl-btn">
+          <span class="press-dl-badge">PDF</span>
+          <span data-ko="다운로드" data-en="Download">다운로드</span>
+        </a>
+      </div>
+
+      <!-- Exhibition Poster Downloads -->
+      <div class="poster-dl-card" style="margin-top: 2rem;">
+        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-green-light); font-weight: 700; margin-bottom: 0.4rem;">EXHIBITION POSTERS</div>
+        <h2 style="font-size: 1.35rem; font-weight: 800; color: var(--text-primary); margin: 0 0 0.5rem 0;" data-ko="전시 포스터" data-en="Exhibition Posters">
+          전시 포스터
+        </h2>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.6;" data-ko="Part 1 · Part 2 전시 포스터를 이미지(JPG)로 다운로드할 수 있습니다." data-en="Download the Part 1 and Part 2 exhibition posters as JPG images.">
+          Part 1 · Part 2 전시 포스터를 이미지(JPG)로 다운로드할 수 있습니다.
+        </p>
+
+        <div class="poster-grid">
+          <div class="poster-item">
+            <img class="poster-thumb" src="koganecho-poster-part1-thumb.jpg" alt="Koganecho Pavilion Part 1 poster">
+            <div>
+              <div class="poster-part">PART 1</div>
+              <div class="poster-title" data-ko="Part 1: 생명처럼 숨 쉬는 이 마을" data-en="Part 1: A Neighborhood That Breathes Like a Living Being">Part 1: 생명처럼 숨 쉬는 이 마을</div>
+              <div class="poster-note">JPG · 1350 × 1904</div>
+            </div>
+            <a href="koganecho-poster-part1.jpg" download="KOGANECHO_POSTER_PART1_2026.jpg" class="press-dl-btn">
+              <span class="press-dl-badge">JPG</span>
+              <span data-ko="다운로드" data-en="Download">다운로드</span>
+            </a>
+          </div>
+
+          <div class="poster-item">
+            <img class="poster-thumb" src="koganecho-poster-part2-thumb.jpg" alt="Koganecho Pavilion Part 2 poster">
+            <div>
+              <div class="poster-part">PART 2</div>
+              <div class="poster-title" data-ko="Part 2: 관계의 시간 - 아카이브 전시" data-en="Part 2: Time of Relations - Archive Exhibition">Part 2: 관계의 시간 - 아카이브 전시</div>
+              <div class="poster-note">JPG · 1350 × 1904</div>
+            </div>
+            <a href="koganecho-poster-part2.jpg" download="KOGANECHO_POSTER_PART2_2026.jpg" class="press-dl-btn">
+              <span class="press-dl-badge">JPG</span>
+              <span data-ko="다운로드" data-en="Download">다운로드</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="background: #07080A; border-top: 1px solid var(--border-light); padding: 2.5rem 0; margin-top: 5rem; color: var(--text-secondary);">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+        <div>© 2026 Koganecho Area Management Center & Gwangju Biennale Pavilion. All rights reserved.</div>
+        <div style="font-family: var(--font-mono);">KOGANECHO PAVILION 2026</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

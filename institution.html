@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>참여 기관 | 2026 광주비엔날레 코가네쵸 파빌리온</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-badge">
+        KOGANECHO PAVILION
+      </a>
+
+      <div class="header-controls">
+        <button onclick="toggleLanguage()" class="lang-toggle-btn">
+          <span id="lang-btn-text">EN / KR</span>
+        </button>
+
+        <button onclick="openNavMenu()" class="menu-trigger-btn" aria-label="Toggle Menu">
+          <span>☰</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fullscreen Navigation Menu Overlay -->
+  <div id="nav-overlay" class="nav-overlay">
+    <div class="nav-overlay-header">
+      <a href="index.html" class="brand-badge" onclick="closeNavMenu()">
+        KOGANECHO PAVILION
+      </a>
+      <button onclick="closeNavMenu()" class="nav-overlay-close" aria-label="Close Menu">
+        <span>✕</span>
+      </button>
+    </div>
+    <div class="nav-overlay-body">
+      <div class="nav-menu-list">
+        <a href="index.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="코가네쵸바자르 2026 in 광주비엔날레" data-en="Koganecho Bazaar 2026 in Gwangju Biennale">코가네쵸바자르 2026 in 광주비엔날레</span>
+          <span class="nav-menu-desc">Koganecho Bazaar 2026 in Gwangju Biennale</span>
+        </a>
+        <a href="part1.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="Part 1: 생명처럼 숨 쉬는 이 마을" data-en="Part 1: A Neighborhood That Breathes Like a Living Being">Part 1: 생명처럼 숨 쉬는 이 마을</span>
+          <span class="nav-menu-desc">A Neighborhood That Breathes Like a Living Being</span>
+          <span class="nav-menu-subdesc">전일빌딩245 시민갤러리 | Jeon-il Building 245 Citizen Gallery</span>
+        </a>
+        <a href="part2.html" class="nav-menu-item active" onclick="closeNavMenu()">
+          <span data-ko="Part 2: 관계의 시간 - 아카이브 전시" data-en="Part 2: Time of Relations - Archive Exhibition">Part 2: 관계의 시간 - 아카이브 전시</span>
+          <span class="nav-menu-desc">Time of Relations - Archive Exhibition</span>
+          <span class="nav-menu-subdesc">동구인문학당 | Dong-gu Inmunhakdang (House of Humanities)</span>
+        </a>
+        <a href="credits.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="크레딧" data-en="Credits">크레딧</span>
+          <span class="nav-menu-desc">Credits & Organizing Network</span>
+          <span class="nav-menu-subdesc">Overview • Organizers • Curators • Partner Institutions</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="artist-page-main">
+    <div class="container">
+
+      <!-- Institution Detail (rendered via JS) -->
+      <div id="institution-detail">
+        <!-- renderInstitutionDetail() fills this -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="background: #07080A; border-top: 1px solid var(--border-light); padding: 4rem 0 3rem 0; margin-top: 5rem; color: var(--text-secondary);">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.8rem; color: var(--text-muted);">
+        <div>© 2026 Koganecho Area Management Center & Gwangju Biennale Pavilion. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

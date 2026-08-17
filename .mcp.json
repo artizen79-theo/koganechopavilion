@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ui-inspector": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/kamc_han/.claude/mcp-servers/UI-Inspector/servers/inspector-server.mjs"
+      ],
+      "env": {},
+      "disabled": true
+    }
+  }
+}

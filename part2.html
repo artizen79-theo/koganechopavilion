@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 2 아카이브 전시 | 2026 광주비엔날레 코가네쵸 파빌리온</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-badge">
+        KOGANECHO PAVILION
+      </a>
+
+      <div class="header-controls">
+        <button onclick="toggleLanguage()" class="lang-toggle-btn">
+          <span id="lang-btn-text">EN / KR</span>
+        </button>
+
+        <button onclick="openNavMenu()" class="menu-trigger-btn" aria-label="Toggle Menu">
+          <span>☰</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fullscreen Navigation Menu Overlay -->
+  <div id="nav-overlay" class="nav-overlay">
+    <div class="nav-overlay-header">
+      <a href="index.html" class="brand-badge" onclick="closeNavMenu()">
+        KOGANECHO PAVILION
+      </a>
+      <button onclick="closeNavMenu()" class="nav-overlay-close" aria-label="Close Menu">
+        <span>✕</span>
+      </button>
+    </div>
+    <div class="nav-overlay-body">
+      <div class="nav-menu-list">
+        <a href="index.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="코가네쵸바자르 2026 in 광주비엔날레" data-en="Koganecho Bazaar 2026 in Gwangju Biennale">코가네쵸바자르 2026 in 광주비엔날레</span>
+          <span class="nav-menu-desc">Koganecho Bazaar 2026 in Gwangju Biennale</span>
+        </a>
+        <a href="part1.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="Part 1: 생명처럼 숨 쉬는 이 마을" data-en="Part 1: A Neighborhood That Breathes Like a Living Being">Part 1: 생명처럼 숨 쉬는 이 마을</span>
+          <span class="nav-menu-desc">A Neighborhood That Breathes Like a Living Being</span>
+          <span class="nav-menu-subdesc">전일빌딩245 시민갤러리 | Jeon-il Building 245 Citizen Gallery</span>
+        </a>
+        <a href="part2.html" class="nav-menu-item active" onclick="closeNavMenu()">
+          <span data-ko="Part 2: 관계의 시간 - 아카이브 전시" data-en="Part 2: Time of Relations - Archive Exhibition">Part 2: 관계의 시간 - 아카이브 전시</span>
+          <span class="nav-menu-desc">Time of Relations - Archive Exhibition</span>
+          <span class="nav-menu-subdesc">동구인문학당 | Dong-gu Inmunhakdang (House of Humanities)</span>
+        </a>
+        <a href="credits.html" class="nav-menu-item" onclick="closeNavMenu()">
+          <span data-ko="크레딧" data-en="Credits">크레딧</span>
+          <span class="nav-menu-desc">Credits & Organizing Network</span>
+          <span class="nav-menu-subdesc">Overview • Organizers • Curators • Partner Institutions</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main style="padding: 2.5rem 0;">
+    <div class="container">
+
+      <!-- Part 2 Banner (Design Hero Image) -->
+      <div style="margin-bottom: 3.5rem; border-radius: 4px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.2);">
+        <img id="hero-img-part2" src="images/banner/hero_part2_kr.png" data-src-ko="images/banner/hero_part2_kr.png" data-src-en="images/banner/hero_part2_en.png" alt="Part 2: 관계의 시간 - 아카이브 전시" style="width: 100%; height: auto; display: block;">
+      </div>
+
+      <!-- Curatorial Text -->
+      <div style="margin-bottom: 3.5rem;">
+        <div class="section-header" onclick="toggleSection(this)">
+          <h2 data-ko="큐레토리얼 텍스트" data-en="Curatorial Text">큐레토리얼 텍스트</h2>
+          <button class="section-toggle" type="button" aria-label="Toggle section">−</button>
+        </div>
+        <div class="section-content">
+          <div class="section-inner" style="font-size: 1.25rem; line-height: 1.85; color: #FFFFFF; font-weight: 500; display: flex; flex-direction: column; gap: 1.75rem;">
+          <p style="color: #FFFFFF; margin: 0;" data-ko="관계는 한 번의 만남으로 완성되지 않는다. 서로 다른 지역과 기관, 사람들이 오랜 시간 교류하며 경험을 나눌 때 관계는 기억과 실천의 층위를 만들어 낸다. 이 전시는 코가네쵸가 활동을 시작했을때 부터 동아시아, 동남아시아의 예술기관들이 함께 축적해 온 교류의 역사를 돌아보고, 그 관계가 현재의 활동과 미래의 가능성으로 이어지는 과정을 살펴본다."
+             data-en="Relationships are not formed through a single encounter. When people, communities, and institutions from different regions exchange experiences over time, their relationships accumulate layers of memory and practice. This exhibition traces the history of exchange that Koganecho has built together with art organizations across East and Southeast Asia since the beginning of its activities. It also explores how these relationships continue to shape present practices and open possibilities for the future.">
+            관계는 한 번의 만남으로 완성되지 않는다. 서로 다른 지역과 기관, 사람들이 오랜 시간 교류하며 경험을 나눌 때 관계는 기억과 실천의 층위를 만들어 낸다. 이 전시는 코가네쵸가 활동을 시작했을때 부터 동아시아, 동남아시아의 예술기관들이 함께 축적해 온 교류의 역사를 돌아보고, 그 관계가 현재의 활동과 미래의 가능성으로 이어지는 과정을 살펴본다.
+          </p>
+          <p style="color: #FFFFFF; margin: 0;" data-ko="전시장에는 코가네쵸의 국제 교류 기록과 각 참여 기관의 활동 자료가 나란히 놓인다. 문서와 사진, 영상, 출판물, 참여자의 목소리 등 다양한 기록은 각 기관이 형성된 배경과 활동해 온 지역의 사회적·문화적 조건을 드러낸다. 개별적인 기록들은 서로 연결되며, 지역마다 다른 맥락 속에서 예술과 공동체의 관계가 어떻게 형성되고 변화해 왔는지를 보여준다."
+             data-en="Koganecho's records of international exchange are presented alongside archival materials from each participating organization. Documents, photographs, videos, publications, and participants' voices reveal the circumstances in which these organizations were established, as well as the social and cultural conditions of the regions in which they have worked. These individual records intersect and connect, showing how relationships between art and community have been formed and transformed within different local contexts.">
+            전시장에는 코가네쵸의 국제 교류 기록과 각 참여 기관의 활동 자료가 나란히 놓인다. 문서와 사진, 영상, 출판물, 참여자의 목소리 등 다양한 기록은 각 기관이 형성된 배경과 활동해 온 지역의 사회적·문화적 조건을 드러낸다. 개별적인 기록들은 서로 연결되며, 지역마다 다른 맥락 속에서 예술과 공동체의 관계가 어떻게 형성되고 변화해 왔는지를 보여준다.
+          </p>
+          <p style="color: #FFFFFF; margin: 0;" data-ko="이 전시는 과거의 성과를 정리하는 데 머물지 않는다. 축적된 기록을 현재의 시점에서 다시 읽고, 그 안에서 지속되어 온 고민과 실천의 의미를 발견하고자 한다. 오랜 교류 속에서 형성된 신뢰와 경험은 오늘날의 협업을 가능하게 하는 기반이자 앞으로의 관계를 상상하게 하는 자원이 된다."
+             data-en="This exhibition goes beyond documenting past achievements. It revisits the accumulated records from a contemporary perspective, seeking to uncover the concerns and practices that have endured over time. The trust and experience developed through long-term exchange provide a foundation for collaboration today and a resource for imagining relationships yet to come.">
+            이 전시는 과거의 성과를 정리하는 데 머물지 않는다. 축적된 기록을 현재의 시점에서 다시 읽고, 그 안에서 지속되어 온 고민과 실천의 의미를 발견하고자 한다. 오랜 교류 속에서 형성된 신뢰와 경험은 오늘날의 협업을 가능하게 하는 기반이자 앞으로의 관계를 상상하게 하는 자원이 된다.
+          </p>
+          <p style="color: #FFFFFF; margin: 0;" data-ko="〈관계의 시간〉은 코가네쵸와 참여 기관들의 활동을 현재 진행형의 실천으로 제시한다. 이곳에서 과거의 기록은 현재의 만남으로 이어지고, 오늘의 대화와 참여는 다시 미래를 위한 새로운 기록이 된다. 전시는 우리가 어떤 관계를 이어 왔으며, 앞으로 어떤 관계를 함께 만들어 갈 것인지 질문한다."
+             data-en="&quot;The Time of Relationships&quot; presents the work of Koganecho and the participating organizations as an ongoing practice. Here, records of the past lead to encounters in the present, while today's conversations and participation become new records for the future. The exhibition asks what kinds of relationships we have sustained and what kinds of relationships we might create together from here.">
+            〈관계의 시간〉은 코가네쵸와 참여 기관들의 활동을 현재 진행형의 실천으로 제시한다. 이곳에서 과거의 기록은 현재의 만남으로 이어지고, 오늘의 대화와 참여는 다시 미래를 위한 새로운 기록이 된다. 전시는 우리가 어떤 관계를 이어 왔으며, 앞으로 어떤 관계를 함께 만들어 갈 것인지 질문한다.
+          </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Participating Institutions List -->
+      <div>
+        <div class="section-header" onclick="toggleSection(this)">
+          <h2 data-ko="참여 기관" data-en="Participating Institutions">참여 기관</h2>
+          <button class="section-toggle" type="button" aria-label="Toggle section">−</button>
+        </div>
+        <div class="section-content">
+          <div class="section-inner">
+            <div id="part2-institutions-grid">
+              <!-- Rendered via JS (main.js renderPart2Institutions) -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Institution Modal -->
+  <div id="institution-modal" class="modal-overlay" onclick="closeModal('institution-modal')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('institution-modal')">✕</button>
+      <div id="modal-inst-region" style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-green-light); margin-bottom: 0.5rem;"></div>
+      <h2 id="modal-inst-name" style="font-size: 1.8rem; font-weight: 800; margin-bottom: 0.25rem;"></h2>
+      <div id="modal-inst-subname" style="font-size: 1rem; color: var(--text-muted); margin-bottom: 1.25rem; font-style: italic;"></div>
+      
+      <div id="modal-inst-img-wrapper"></div>
+
+      <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid var(--border-green); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 1.5rem;">
+        <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">NETWORK ROLE</div>
+        <div id="modal-inst-role" style="font-weight: 600; color: var(--text-primary);"></div>
+      </div>
+
+      <div style="border-top: 1px solid var(--border-light); padding-top: 1.25rem;">
+        <h4 style="font-size: 0.95rem; margin-bottom: 0.5rem;">About Institution</h4>
+        <p id="modal-inst-desc" style="line-height: 1.7; color: var(--text-secondary); font-size: 0.95rem;"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer style="background: #07080A; border-top: 1px solid var(--border-light); padding: 4rem 0 3rem 0; margin-top: 5rem; color: var(--text-secondary);">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.8rem; color: var(--text-muted);">
+        <div>© 2026 Koganecho Area Management Center & Gwangju Biennale Pavilion. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
