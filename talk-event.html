@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>토크 이벤트: 대화와 네트워크 | 코가네쵸 파빌리온</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=JetBrains+Mono:wght@300;400;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1787204403783">
+</head>
+<body>
+
+  <!-- Navigation Overlay -->
+  <div id="nav-overlay" class="nav-overlay">
+    <div class="nav-overlay-header">
+      <div class="site-logo" style="font-family: var(--font-mono); font-size: 0.9rem; letter-spacing: 0.15em; text-transform: uppercase;">KOGANECHO PAVILION</div>
+      <button class="nav-close-btn" onclick="closeNavMenu()" aria-label="Close menu">✕</button>
+    </div>
+    <div class="nav-overlay-body">
+            <ul class="nav-menu-list">
+        <li><a href="index.html" onclick="closeNavMenu()"><span class="menu-num">00</span><span class="menu-title" data-ko="메인" data-en="Main">메인</span></a></li>
+        <li><a href="part1.html" onclick="closeNavMenu()"><span class="menu-num">01</span><span class="menu-title" data-ko="Part 1: 아티스트 전시" data-en="Part 1: Artist Exhibition">Part 1: 아티스트 전시</span></a></li>
+        <li><a href="part2.html" onclick="closeNavMenu()"><span class="menu-num">02</span><span class="menu-title" data-ko="Part 2: 아카이브 전시" data-en="Part 2: Archive Exhibition">Part 2: 아카이브 전시</span></a></li>
+        <li><a href="talk-event.html" onclick="closeNavMenu()"><span class="menu-num">03</span><span class="menu-title" data-ko="토크 이벤트" data-en="Talk Event">토크 이벤트</span></a></li>
+        <li><a href="credits.html" onclick="closeNavMenu()"><span class="menu-num">04</span><span class="menu-title" data-ko="크레딧 &amp; 아카이브" data-en="Credits &amp; Archive">크레딧 &amp; 아카이브</span></a></li>
+      </ul>
+      <div class="nav-overlay-footer">
+        <div style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+          <div style="color: var(--text-primary); font-weight: 600; margin-bottom: 0.25rem;">2026 광주비엔날레 코가네쵸 파빌리온</div>
+          <div>Koganecho Pavilion at Gwangju Biennale 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="index.html" class="logo">Koganecho Pavilion</a>
+    <div class="header-right">
+      <button class="lang-toggle" onclick="toggleLanguage()" aria-label="Switch Language">
+        <span id="lang-btn-text">EN / KR</span>
+      </button>
+      <button class="hamburger" onclick="openNavMenu()" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page-container">
+    <div class="content-wrapper">
+      
+      <!-- Back Navigation -->
+      <div style="margin-bottom: 2rem;">
+        <a href="part2.html" class="artist-nav-link" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-green-light); font-size: 0.9rem; text-decoration: none; font-weight: 500;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          <span data-ko="Part 2: 아카이브 전시로 돌아가기" data-en="Back to Part 2: Archive Exhibition">Part 2: 아카이브 전시로 돌아가기</span>
+        </a>
+      </div>
+
+      <!-- Event Hero Banner Card -->
+      <div style="background: linear-gradient(135deg, rgba(37, 99, 235, 0.14) 0%, rgba(16, 185, 129, 0.09) 100%); border: 1px solid var(--accent-green-line); border-radius: 6px; padding: clamp(1.5rem, 3.5vw, 3rem); margin-bottom: 3.5rem;">
+        
+        <!-- Category & Badges -->
+        <div style="display: flex; flex-wrap: wrap; gap: 0.65rem; margin-bottom: 1.5rem;">
+          <span style="background: rgba(37, 99, 235, 0.25); color: #93a9ff; border: 1px solid rgba(147, 169, 255, 0.35); font-family: var(--font-mono); font-size: 0.85rem; padding: 0.35rem 0.85rem; border-radius: 4px; font-weight: 600;"
+                data-ko="🗓️ 2026년 9월 6일(일) 15:00 - 18:00"
+                data-en="🗓️ Sun, September 6, 2026 | 15:00 - 18:00">
+            🗓️ 2026년 9월 6일(일) 15:00 - 18:00
+          </span>
+          <span style="background: rgba(16, 185, 129, 0.18); color: var(--accent-green-light); border: 1px solid rgba(52, 211, 153, 0.35); font-family: var(--font-mono); font-size: 0.85rem; padding: 0.35rem 0.85rem; border-radius: 4px; font-weight: 600;"
+                data-ko="📍 광주 동구인문학당 (도서관 & 공유다이닝룸)"
+                data-en="📍 Dong-gu Inmunhakdang (Library & Shared Dining Room)">
+            📍 광주 동구인문학당 (도서관 & 공유다이닝룸)
+          </span>
+        </div>
+
+        <!-- Main Title -->
+        <h1 style="font-size: clamp(1.6rem, 3.8vw, 2.5rem); font-weight: 900; line-height: 1.35; margin: 0 0 1.5rem 0; color: #FFFFFF; letter-spacing: -0.02em;"
+            data-ko="도시의 빈자리에서 아시아의 네트워크로:<br><span style='color: var(--accent-green-light);'>코가네쵸와 예술기관들의 대화</span>"
+            data-en="From Urban Vacancies to Asian Networks:<br><span style='color: var(--accent-green-light);'>A Dialogue Between Koganecho and Art Organizations</span>">
+          도시의 빈자리에서 아시아의 네트워크로:<br><span style="color: var(--accent-green-light);">코가네쵸와 예술기관들의 대화</span>
+        </h1>
+
+        <!-- Description Paragraphs -->
+        <div style="font-size: 1.15rem; line-height: 1.9; color: #FFFFFF; font-weight: 400; display: flex; flex-direction: column; gap: 1.25rem;">
+          <p style="margin: 0;"
+             data-ko="본 토크 이벤트는 코가네쵸 바자르와 코가네쵸 에리어 매니지먼트 센터의 사례를 출발점으로 삼아, 여러 다른 나라와 지역의 예술기관이 각자의 지역에서 어떤 방식으로 형성되고 활동해 왔는지 비교합니다."
+             data-en="Taking the cases of Koganecho Bazaar and the Koganecho Area Management Center as a starting point, this talk event compares how art organizations from various countries and regions have emerged and operated within their local contexts.">
+            본 토크 이벤트는 코가네쵸 바자르와 코가네쵸 에리어 매니지먼트 센터의 사례를 출발점으로 삼아, 여러 다른 나라와 지역의 예술기관이 각자의 지역에서 어떤 방식으로 형성되고 활동해 왔는지 비교합니다.
+          </p>
+          <p style="margin: 0;"
+             data-ko="행정, 주민, 경찰, 대학, 기업, 예술가가 함께 작동한 협력 구조와 그 한계를 살피고, 지역재생 이후 예술기관이 설정해야 할 다음 목표를 논의합니다. 또한 동아시아와 동남아시아 예술기관 간 국제교류의 필요성과 지속 가능성을 함께 다루며 광주에서 다양한 협력의 가능성을 모색합니다."
+             data-en="It examines the collaborative structures—and limitations—formed among public administration, local residents, police, universities, corporations, and artists, while discussing the subsequent goals art organizations should set following urban revitalization. Furthermore, the dialogue addresses the necessity and sustainability of international exchange among art spaces across East and Southeast Asia, exploring diverse possibilities for collaboration in Gwangju.">
+            행정, 주민, 경찰, 대학, 기업, 예술가가 함께 작동한 협력 구조와 그 한계를 살피고, 지역재생 이후 예술기관이 설정해야 할 다음 목표를 논의합니다. 또한 동아시아와 동남아시아 예술기관 간 국제교류의 필요성과 지속 가능성을 함께 다루며 광주에서 다양한 협력의 가능성을 모색합니다.
+          </p>
+        </div>
+      </div>
+
+      <!-- Speakers & Organizations Section -->
+      <div style="margin-bottom: 4rem;">
+        <div class="section-header" style="cursor: default;">
+          <h2 data-ko="발표자 및 참여 단체" data-en="Speakers & Participating Organizations">발표자 및 참여 단체</h2>
+          <span style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent-green-light); letter-spacing: 0.05em;">10 ORGANIZATIONS</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 1.25rem; margin-top: 1.5rem;">
+          
+          <!-- 1. Koganecho AMC -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="일본, 요코하마" data-en="Yokohama, Japan">일본, 요코하마</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="코가네쵸 에리어 매니지먼트 센터" data-en="Koganecho Area Management Center">코가네쵸 에리어 매니지먼트 센터</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 스즈키 노부하루" data-en="Speaker: Nobuharu Suzuki">발표자: 스즈키 노부하루</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="요코하마 시립대학교 국제교양학부/도시사회문화연구과 교수, 코가네쵸 이사장" data-en="Professor, Yokohama City Univ. / Chairperson, Koganecho AMC">요코하마 시립대학교 국제교양학부/도시사회문화연구과 교수, 코가네쵸 이사장</div>
+            </div>
+          </div>
+
+          <!-- 2. A4 Residency Art Center -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="중국, 청두" data-en="Chengdu, China">중국, 청두</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="A4 레지던스아트센터" data-en="A4 Residency Art Center">A4 레지던스아트센터</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 차이리위안" data-en="Speaker: CAI Liyuan">발표자: 차이리위안</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="A4 레지던스아트센터 디렉터" data-en="Director, A4 Residency Art Center">A4 레지던스아트센터 디렉터</div>
+            </div>
+          </div>
+
+          <!-- 3. 97 West International Art Community -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="중국, 샤먼" data-en="Xiamen, China">중국, 샤먼</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="97 웨스트 디스트릭트 인터내셔널 아트 커뮤니티 (샤먼대학교)" data-en="97 West District International Art Community (Xiamen Univ.)">97 웨스트 디스트릭트 인터내셔널 아트 커뮤니티 (샤먼대학교)</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 린린 (Lin Lin)" data-en="Speaker: Lin Lin">발표자: 린린 (Lin Lin)</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="샤먼대학교 창의혁신연구소 부교수, 디렉터" data-en="Associate Professor, Xiamen University / Director">샤먼대학교 창의혁신연구소 부교수, 디렉터</div>
+            </div>
+          </div>
+
+          <!-- 4. AiRViNe -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="베트남, 하노이" data-en="Hanoi, Vietnam">베트남, 하노이</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="베트남 아티스트 인 레지던스 네트워크 (AiRViNe)" data-en="Artist-in-Residence Vietnam Network (AiRViNe)">베트남 아티스트 인 레지던스 네트워크 (AiRViNe)</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 짠타오미엔" data-en="Speaker: TRAN Thao Mien">발표자: 짠타오미엔</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="아티스트, AiRViNe 공동설립자" data-en="Artist, Co-founder of AiRViNe">아티스트, AiRViNe 공동설립자</div>
+            </div>
+          </div>
+
+          <!-- 5. Absolute Space -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="대만, 타이난" data-en="Tainan, Taiwan">대만, 타이난</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="앱솔루트 스페이스 포 더 아트" data-en="Absolute Space for The Arts">앱솔루트 스페이스 포 더 아트</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 황이민" data-en="Speaker: Huang Yi Min">발표자: 황이민</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="앱솔루트 스페이스 디렉터" data-en="Director, Absolute Space for The Arts">앱솔루트 스페이스 디렉터</div>
+            </div>
+          </div>
+
+          <!-- 6. Spaceppong -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="한국, 광주광역시" data-en="Gwangju, Korea">한국, 광주광역시</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="공유공간 뽕뽕브릿지" data-en="Spaceppong">공유공간 뽕뽕브릿지</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 최윤미" data-en="Speaker: Choi Younmi">발표자: 최윤미</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="뽕뽕브릿지 디렉터" data-en="Director, Spaceppong">뽕뽕브릿지 디렉터</div>
+            </div>
+          </div>
+
+          <!-- 7. 653artfirm -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="한국, 청주" data-en="Cheongju, Korea">한국, 청주</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="653예술상회" data-en="653artfirm">653예술상회</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 이종현" data-en="Speaker: LEE Jong-Hyun">발표자: 이종현</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="653예술상회 디렉터" data-en="Director, 653artfirm">653예술상회 디렉터</div>
+            </div>
+          </div>
+
+          <!-- 8. Daegu Art Factory -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="한국, 대구광역시" data-en="Daegu, Korea">한국, 대구광역시</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="대구문화예술진흥원 대구예술발전소" data-en="Daegu Art Factory">대구문화예술진흥원 대구예술발전소</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 방성택" data-en="Speaker: Sung-Taek Bang">발표자: 방성택</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="대구문화예술진흥원 문화예술본부장" data-en="Head of Culture & Arts Headquarters">대구문화예술진흥원 문화예술본부장</div>
+            </div>
+          </div>
+
+          <!-- 9. Totatoga -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="한국, 부산광역시" data-en="Busan, Korea">한국, 부산광역시</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="원도심 창작공간 또따또가" data-en="The Historic Downtown Culture Cluster Totatoga">원도심 창작공간 또따또가</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="발표자: 창파 (김혜경)" data-en="Speaker: Changpa (Hye-Kyung Kim)">발표자: 창파 (김혜경)</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="또따또가 센터장 / 디렉터" data-en="Director, Totatoga">또따또가 센터장 / 디렉터</div>
+            </div>
+          </div>
+
+          <!-- 10. Donggu Inmunhakdang -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 6px; padding: 1.4rem; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: #93a9ff; margin-bottom: 0.4rem;" data-ko="한국, 광주광역시" data-en="Gwangju, Korea">한국, 광주광역시</div>
+              <div style="font-weight: 700; font-size: 1.05rem; color: #FFFFFF; margin-bottom: 0.75rem;" data-ko="동구인문학당" data-en="Dong-gu Inmunhakdang (House of Humanities)">동구인문학당</div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.75rem;">
+              <div style="color: var(--accent-green-light); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.25rem;" data-ko="주관 및 장소 협력" data-en="Host Venue & Partner">주관 및 장소 협력</div>
+              <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;" data-ko="광주광역시 동구 인문도시 거점공간" data-en="Humanities & Cultural Hub of Dong-gu, Gwangju">광주광역시 동구 인문도시 거점공간</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bottom Navigation Button -->
+      <div style="text-align: center; margin-top: 2rem; margin-bottom: 3rem;">
+        <a href="part2.html" class="artist-link-chip" style="font-size: 1rem; padding: 0.75rem 1.75rem; border-radius: 4px; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          <span data-ko="Part 2: 아카이브 전시로 돌아가기" data-en="Back to Part 2: Archive Exhibition">Part 2: 아카이브 전시로 돌아가기</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-title">2026 광주비엔날레 코가네쵸 파빌리온</div>
+      <div class="footer-desc" data-ko="Koganecho Pavilion at Gwangju Biennale 2026" data-en="Koganecho Pavilion at Gwangju Biennale 2026">Koganecho Pavilion at Gwangju Biennale 2026</div>
+      <div class="footer-copy">&copy; 2026 Koganecho Area Management Center. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js?v=1787204403783"></script>
+  <script src="js/main.js?v=1787204403783"></script>
+</body>
+</html>

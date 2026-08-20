@@ -1,0 +1,3 @@
+{"hookEvent":"Stop","ccVersion":"2.1.226","sessionId":"63253347-bba3-4bef-a16a-75ef20b63650","timestamp":"2026-08-17T11:17:51.336Z","context":{"agent":"main","skill":null}}
+{"hookEvent":"Stop","ccVersion":"2.1.226","sessionId":"63253347-bba3-4bef-a16a-75ef20b63650","timestamp":"2026-08-17T11:19:25.816Z","context":{"agent":"main","skill":null}}
+{"hookEvent":"SubagentStop","ccVersion":"2.1.226","sessionId":"63253347-bba3-4bef-a16a-75ef20b63650","timestamp":"2026-08-17T11:22:37.544Z","context":{"agentType":"unknown","status":"completed"}}
